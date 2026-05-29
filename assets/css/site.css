@@ -79,6 +79,15 @@
   margin-bottom: 1.2rem;
 }
 
+.section-heading-row > div:first-child {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.archive-browser .section-heading-row .lead {
+  max-width: 76rem;
+}
+
 .section-heading-row h2 {
   margin-bottom: 0.35rem;
 }
@@ -196,17 +205,11 @@
 }
 
 .abstract-actions,
-.document-actions,
-.download-actions {
+.document-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 0.6rem;
   margin-top: 0.85rem;
-}
-
-.download-actions {
-  justify-content: flex-end;
-  margin-top: 0;
 }
 
 .abstract-actions .button {
