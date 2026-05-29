@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://justinsyu.github.io/ecfc-2026/sitemap.xml

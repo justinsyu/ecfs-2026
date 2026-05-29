@@ -1,0 +1,13 @@
+.jekyll-cache/
+.playwright-mcp/
+_site/
+vendor/
+node_modules/
+__pycache__/
+*.py[cod]
+*-qa.png
+.DS_Store
+Thumbs.db
+ecfs_lisbon2026_source.html
+ecfs_css_sample.css
+lisbon_hero.jpg

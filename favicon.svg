@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ECFS 2026">
+  <rect width="64" height="64" fill="#01458e"/>
+  <path d="M12 42c12-2 15-18 27-20 5-.9 10 .7 13 4-3 1-6 3-8 6-5 7-11 13-21 13-4 0-8-1-11-3Z" fill="#00a0e0"/>
+  <path d="M13 21c6 6 15 8 25 5 5-1 9-4 13-8-1 7-5 13-11 16-11 6-23 1-27-13Z" fill="#ffffff"/>
+  <circle cx="49" cy="18" r="4" fill="#ff8621"/>
+</svg>

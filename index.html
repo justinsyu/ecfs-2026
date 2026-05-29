@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+    <title>ECFS 2026 Conference Data Archive</title>
+    <meta name="description" content="Searchable static archive of ECFS 2026 programme presentations, posters, and abstracts.">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600;700&family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@300;400;500;600;700;800&family=Lexend:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Rubik:wght@400;500;600;700&family=Sora:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/site.css?v=ecfs">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="./">ECFS 2026 Conference Data Archive</a>
+      <nav aria-label="Primary navigation">
+        <a href="#browse">Browse</a>
+        <a href="#tracks">Tracks</a>
+        <a href="#sessions">Sessions</a>
+        <a href="ecfs_2026_conference_presentations.json">Full JSON</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero ecfs-hero">
+        <div class="hero-copy">
+          <h1>ECFS 2026 presentations, posters, and abstracts</h1>
+          <p class="lead">A static, browser-searchable view of 818 programme contribution records for the 49th European Cystic Fibrosis Conference in Lisbon. The archive preserves programme metadata, session context, abstract sections, parse status, and source URLs for verification.</p>
+        </div>
+        <figure class="hero-media">
+          <img src="assets/img/lisbon_2026_hero.jpg" alt="Lisbon 2026 conference visual from ECFS">
+        </figure>
+      </section>
+
+      <section class="summary-grid" aria-label="Archive summary">
+        <div>
+          <strong>Records</strong>
+          <span data-stat="records">818</span>
+        </div>
+        <div>
+          <strong>Unique abstracts</strong>
+          <span data-stat="abstracts">689</span>
+        </div>
+        <div>
+          <strong>Structured</strong>
+          <span data-stat="structured">574</span>
+        </div>
+        <div>
+          <strong>Source URLs</strong>
+          <span data-stat="source-urls">818</span>
+        </div>
+      </section>
+
+      <section id="browse" class="archive-browser" aria-labelledby="browse-title">
+        <div class="section-heading-row">
+          <div>
+            <h2 id="browse-title">Browse records</h2>
+            <p class="lead">Search title, abstract text, author, presenter, code, session, track, room, and programme role. Results update locally in the browser.</p>
+          </div>
+          <a class="button button-secondary" href="ecfs_2026_conference_presentations.json">Download full JSON</a>
+        </div>
+
+        <form class="filter-panel" id="filters">
+          <label>
+            <span>Search</span>
+            <input id="search" type="search" placeholder="Try Pseudomonas, P111, EPS1.02, modulator">
+          </label>
+          <label>
+            <span>Record type</span>
+            <select id="family-filter">
+              <option value="">All record types</option>
+            </select>
+          </label>
+          <label>
+            <span>Session type</span>
+            <select id="session-filter">
+              <option value="">All session types</option>
+            </select>
+          </label>
+          <label>
+            <span>Track</span>
+            <select id="track-filter">
+              <option value="">All tracks</option>
+            </select>
+          </label>
+          <label>
+            <span>Abstract structure</span>
+            <select id="structure-filter">
+              <option value="">All structures</option>
+            </select>
+          </label>
+          <label>
+            <span>Sort</span>
+            <select id="sort-filter">
+              <option value="relevance">Relevance</option>
+              <option value="code">Code / ID</option>
+              <option value="title">Title</option>
+              <option value="session">Session type</option>
+              <option value="track">Track</option>
+              <option value="date">Date and time</option>
+            </select>
+          </label>
+          <label class="checkbox-control">
+            <input id="structured-filter" type="checkbox">
+            <span>Structured abstracts only</span>
+          </label>
+        </form>
+
+        <div class="results-toolbar" aria-live="polite">
+          <span id="result-count">Loading records...</span>
+          <button class="button button-secondary" id="clear-filters" type="button">Clear filters</button>
+        </div>
+
+        <ul class="document-list document-rows" id="results"></ul>
+        <button class="button button-primary load-more" id="load-more" type="button" hidden>Load more results</button>
+      </section>
+
+      <section id="tracks" aria-labelledby="tracks-title">
+        <h2 id="tracks-title">Conference tracks</h2>
+        <ul class="document-list analytics-grid" id="track-list"></ul>
+      </section>
+
+      <section id="sessions" aria-labelledby="sessions-title">
+        <h2 id="sessions-title">Session types</h2>
+        <ul class="document-list analytics-grid" id="session-list"></ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Static archive for search, citation, and AI retrieval. ECFS programme and presentation source links are retained on every record card.</p>
+      <p>Maintained by Justin Yu. <a href="https://github.com/justinsyu/ecfc-2026" rel="noopener">Source repository and issue contact</a>.</p>
+    </footer>
+
+    <dialog class="abstract-dialog" id="abstract-dialog" aria-labelledby="dialog-title">
+      <article>
+        <button class="dialog-close" type="button" aria-label="Close record detail">Close</button>
+        <div id="dialog-content"></div>
+      </article>
+    </dialog>
+
+    <script src="assets/js/app.js?v=ecfs" defer></script>
+  </body>
+</html>

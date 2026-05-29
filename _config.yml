@@ -1,0 +1,16 @@
+title: ECFS 2026 Conference Data Archive
+description: Searchable static archive of ECFS 2026 programme presentations, posters, and abstracts.
+url: "https://justinsyu.github.io"
+baseurl: "/ecfc-2026"
+lang: en-US
+timezone: America/New_York
+maintainer: Justin Yu
+repository_url: "https://github.com/justinsyu/ecfc-2026"
+
+exclude:
+  - scripts/
+  - README.md
+  - .git/
+  - .github/
+  - .jekyll-cache/
+  - vendor/
