@@ -144,32 +144,6 @@
   border-color: var(--accent);
 }
 
-.checkbox-control {
-  display: flex !important;
-  grid-template-columns: none !important;
-  flex-direction: row;
-  align-items: center;
-  gap: 0.45rem;
-  min-height: 2.65rem;
-  padding: 0.55rem 0.7rem;
-  border: 1px solid var(--border-strong);
-  border-radius: 0.35rem;
-  background: #ffffff;
-}
-
-.checkbox-control input {
-  width: 1rem;
-  min-height: 1rem;
-  margin: 0;
-  accent-color: var(--accent);
-}
-
-.checkbox-control span {
-  color: var(--accent-navy);
-  font-size: 0.76rem;
-  line-height: 1.25;
-}
-
 .results-toolbar {
   display: flex;
   justify-content: space-between;

@@ -9,7 +9,6 @@ const state = {
   sessionType: "",
   track: "",
   structure: "",
-  structuredOnly: false,
   sort: "relevance",
   visibleLimit: INITIAL_LIMIT,
 };
@@ -47,7 +46,6 @@ function initElements() {
   elements.sessionFilter = document.querySelector("#session-filter");
   elements.trackFilter = document.querySelector("#track-filter");
   elements.structureFilter = document.querySelector("#structure-filter");
-  elements.structuredFilter = document.querySelector("#structured-filter");
   elements.sortFilter = document.querySelector("#sort-filter");
   elements.clearFilters = document.querySelector("#clear-filters");
   elements.resultCount = document.querySelector("#result-count");
@@ -96,7 +94,6 @@ function recordMatches(record) {
   if (state.sessionType && record.session_type !== state.sessionType) return false;
   if (state.track && record.track !== state.track) return false;
   if (state.structure && record.structure !== state.structure) return false;
-  if (state.structuredOnly && !record.has_structured_sections) return false;
   if (!state.query) return true;
   const terms = state.query.toLowerCase().split(/\s+/).filter(Boolean);
   if (!record._searchText) {
@@ -197,7 +194,6 @@ function syncStateFromControls() {
   state.sessionType = elements.sessionFilter.value;
   state.track = elements.trackFilter.value;
   state.structure = elements.structureFilter.value;
-  state.structuredOnly = elements.structuredFilter.checked;
   state.sort = elements.sortFilter.value;
   state.visibleLimit = INITIAL_LIMIT;
   renderResults();
@@ -209,7 +205,6 @@ function clearFilters() {
   elements.sessionFilter.value = "";
   elements.trackFilter.value = "";
   elements.structureFilter.value = "";
-  elements.structuredFilter.checked = false;
   elements.sortFilter.value = "relevance";
   syncStateFromControls();
 }
@@ -308,7 +303,6 @@ function bindEvents() {
   elements.sessionFilter.addEventListener("change", syncStateFromControls);
   elements.trackFilter.addEventListener("change", syncStateFromControls);
   elements.structureFilter.addEventListener("change", syncStateFromControls);
-  elements.structuredFilter.addEventListener("change", syncStateFromControls);
   elements.sortFilter.addEventListener("change", syncStateFromControls);
   elements.clearFilters.addEventListener("click", clearFilters);
   elements.loadMore.addEventListener("click", () => {
