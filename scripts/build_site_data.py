@@ -6,6 +6,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "ecfs_2026_conference_presentations.json"
 TARGET = ROOT / "assets" / "data" / "presentations-index.json"
+MARKDOWN_TARGET = ROOT / "assets" / "data" / "ecfs_2026_conference_presentations.md"
 
 
 def compact_text(value, limit=None):
@@ -114,6 +115,81 @@ def option_counts(records, key):
     return [{"name": name, "count": count} for name, count in counts.most_common()]
 
 
+def markdown_value(value):
+    return compact_text(value) or "Not available"
+
+
+def markdown_list(items):
+    values = [compact_text(item) for item in items if compact_text(item)]
+    return ", ".join(values) if values else "None"
+
+
+def markdown_record(record):
+    normalized = normalize_record(record)
+    session = record.get("session") or {}
+    sections = section_map(record)
+    missing_sections = record.get("missing_sections") or []
+    lines = [
+        f"## {normalized['display_code']} - {normalized['title'] or 'Untitled record'}",
+        "",
+        f"- Presentation ID: {markdown_value(record.get('presentation_id'))}",
+        f"- Abstract ID: {markdown_value(record.get('abstract_id'))}",
+        f"- Record type: {normalized['family']}",
+        f"- Abstract structure: {normalized['structure']}",
+        f"- Parse status: {markdown_value(record.get('parse_status'))}",
+        f"- Missing structured sections: {markdown_list(missing_sections)}",
+        f"- Presenter: {markdown_value(normalized['presenter'])}",
+        f"- Presenter role: {markdown_value(normalized['presenter_role'])}",
+        f"- Session: {markdown_value(session.get('code'))} - {markdown_value(session.get('title'))}",
+        f"- Session type: {markdown_value(session.get('session_type'))}",
+        f"- Track: {markdown_value(session.get('session_group'))}",
+        f"- Date/time: {markdown_value(session.get('date'))} {markdown_value(normalized['session_time'])}",
+        f"- Room: {markdown_value(session.get('room'))}",
+        f"- Presentation source URL: {markdown_value(record.get('presentation_url'))}",
+        f"- Session source URL: {markdown_value(session.get('url'))}",
+        "",
+    ]
+
+    if compact_text(record.get("authors_text")):
+        lines.extend(["### Authors", "", compact_text(record.get("authors_text")), ""])
+    if compact_text(record.get("affiliations_text")):
+        lines.extend(["### Affiliations", "", compact_text(record.get("affiliations_text")), ""])
+
+    if sections:
+        for label, body in sections.items():
+            lines.extend([f"### {label}", "", body, ""])
+    elif compact_text(record.get("abstract_text")):
+        lines.extend(["### Abstract text", "", compact_text(record.get("abstract_text")), ""])
+    else:
+        lines.extend(["### Abstract text", "", "No abstract text was extracted for this programme record.", ""])
+
+    return "\n".join(lines).rstrip()
+
+
+def write_markdown(payload, records):
+    metadata = payload.get("metadata") or {}
+    lines = [
+        "# ECFS 2026 Conference Presentations, Posters, and Abstracts",
+        "",
+        "Plain-text Markdown export of the ECFS 2026 conference data archive.",
+        "",
+        "## Dataset Summary",
+        "",
+        f"- Records: {len(records)}",
+        f"- Unique presentations: {metadata.get('unique_presentation_count', len(records))}",
+        f"- Unique abstracts: {metadata.get('unique_abstract_count', 'Not available')}",
+        f"- Source programme URL: {metadata.get('source_programme_url', 'Not available')}",
+        f"- Scraped at: {metadata.get('scraped_at', 'Not available')}",
+        f"- Coverage basis: {metadata.get('coverage_basis', 'Not available')}",
+        "",
+        "## Records",
+        "",
+    ]
+    lines.extend(markdown_record(record) + "\n" for record in payload["records"])
+    MARKDOWN_TARGET.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
+    print(f"Wrote {MARKDOWN_TARGET.relative_to(ROOT)} with {len(records)} records")
+
+
 def main():
     payload = json.loads(SOURCE.read_text(encoding="utf-8"))
     records = [normalize_record(record) for record in payload["records"]]
@@ -139,6 +215,7 @@ def main():
     TARGET.parent.mkdir(parents=True, exist_ok=True)
     TARGET.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(f"Wrote {TARGET.relative_to(ROOT)} with {len(records)} records")
+    write_markdown(payload, records)
 
 
 if __name__ == "__main__":

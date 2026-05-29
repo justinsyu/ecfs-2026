@@ -196,11 +196,17 @@
 }
 
 .abstract-actions,
-.document-actions {
+.document-actions,
+.download-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 0.6rem;
   margin-top: 0.85rem;
+}
+
+.download-actions {
+  justify-content: flex-end;
+  margin-top: 0;
 }
 
 .abstract-actions .button {

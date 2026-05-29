@@ -274,6 +274,7 @@ function openDetail(uid) {
       <div class="document-actions">
         ${record.presentation_url ? `<a class="button button-primary" href="${escapeHtml(record.presentation_url)}" target="_blank" rel="noopener">View ECFS source</a>` : ""}
         <a class="button button-secondary" href="ecfs_2026_conference_presentations.json">Download full JSON</a>
+        <a class="button button-secondary" href="assets/data/ecfs_2026_conference_presentations.md">Download Markdown</a>
       </div>
     </header>
     <div class="content abstract-detail-content">
