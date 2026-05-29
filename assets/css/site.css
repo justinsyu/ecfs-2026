@@ -223,7 +223,7 @@
 }
 
 .analytics-grid {
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
 }
 
 .analytics-button {
@@ -232,6 +232,20 @@
   text-align: left;
   cursor: pointer;
   font: inherit;
+}
+
+.analytics-grid li,
+.analytics-grid .topic-card-link {
+  min-width: 0;
+}
+
+.analytics-grid .topic-card-title {
+  max-width: 100%;
+  overflow-wrap: break-word;
+  word-break: normal;
+  hyphens: auto;
+  font-size: clamp(1.02rem, 0.85vw + 0.55rem, 1.18rem);
+  line-height: 1.16;
 }
 
 .abstract-dialog {

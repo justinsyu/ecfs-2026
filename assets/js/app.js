@@ -37,6 +37,10 @@ function optionLabel(item) {
   return `${item.name} (${numberFormat(item.count)})`;
 }
 
+function breakableLabel(value) {
+  return escapeHtml(value).replaceAll("/", "/<wbr>").replaceAll("-", "-<wbr>");
+}
+
 function initElements() {
   elements.search = document.querySelector("#search");
   elements.familyFilter = document.querySelector("#family-filter");
@@ -78,7 +82,7 @@ function renderAnalytics(list, items, maxItems = 12) {
       (item) => `
         <li>
           <button class="topic-card-link analytics-button" type="button" data-filter-value="${escapeHtml(item.name)}">
-            <span class="topic-card-title">${escapeHtml(item.name)}</span>
+            <span class="topic-card-title">${breakableLabel(item.name)}</span>
             <span class="topic-card-meta">${numberFormat(item.count)} records</span>
           </button>
         </li>
