@@ -41,6 +41,7 @@ function breakableLabel(value) {
 }
 
 function initElements() {
+  elements.filters = document.querySelector("#filters");
   elements.search = document.querySelector("#search");
   elements.familyFilter = document.querySelector("#family-filter");
   elements.sessionFilter = document.querySelector("#session-filter");
@@ -298,6 +299,10 @@ function openDetail(uid) {
 }
 
 function bindEvents() {
+  elements.filters.addEventListener("submit", (event) => {
+    event.preventDefault();
+    syncStateFromControls();
+  });
   elements.search.addEventListener("input", syncStateFromControls);
   elements.familyFilter.addEventListener("change", syncStateFromControls);
   elements.sessionFilter.addEventListener("change", syncStateFromControls);
