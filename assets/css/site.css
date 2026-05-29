@@ -461,6 +461,9 @@ nav {
 }
 
 nav a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.32rem;
   color: var(--accent-navy);
   border: 0;
   border-bottom: 1px solid transparent;
@@ -471,6 +474,12 @@ nav a {
   letter-spacing: 0.02em;
   text-decoration: none;
   transition: border-color 160ms ease;
+}
+
+.download-icon {
+  width: 1em;
+  height: 1em;
+  flex: 0 0 auto;
 }
 
 nav a:hover {

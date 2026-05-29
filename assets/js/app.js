@@ -273,8 +273,18 @@ function openDetail(uid) {
       </dl>
       <div class="document-actions">
         ${record.presentation_url ? `<a class="button button-primary" href="${escapeHtml(record.presentation_url)}" target="_blank" rel="noopener">View ECFS source</a>` : ""}
-        <a class="button button-secondary" href="ecfs_2026_conference_presentations.json">Download JSON</a>
-        <a class="button button-secondary" href="assets/data/ecfs_2026_conference_presentations.md">Download Markdown</a>
+        <a class="button button-secondary download-link" href="ecfs_2026_conference_presentations.json" download>
+          <svg class="download-icon" viewBox="0 0 20 20" aria-hidden="true">
+            <path d="M10 2.5v9m0 0 3.5-3.5M10 11.5 6.5 8M4 14.5v2h12v-2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Download JSON
+        </a>
+        <a class="button button-secondary download-link" href="assets/data/ecfs_2026_conference_presentations.md" download>
+          <svg class="download-icon" viewBox="0 0 20 20" aria-hidden="true">
+            <path d="M10 2.5v9m0 0 3.5-3.5M10 11.5 6.5 8M4 14.5v2h12v-2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Download Markdown
+        </a>
       </div>
     </header>
     <div class="content abstract-detail-content">
