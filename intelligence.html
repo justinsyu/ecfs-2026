@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+    <title>ECFS 2026 Abstract Intelligence Dashboard</title>
+    <meta name="description" content="Interactive ECFS 2026 abstract intelligence dashboard with source programme links for every data point.">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600;700&family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800&family=Lexend:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Rubik:wght@400;500;600;700&family=Sora:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/site.css?v=ecfs-hero-title">
+    <link rel="stylesheet" href="assets/css/intelligence.css?v=ecfs-intelligence-1">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
+    <script src="assets/js/intelligence.js?v=ecfs-intelligence-1" defer></script>
+  </head>
+  <body class="intelligence-page is-loading">
+    <header class="site-header">
+      <a class="brand" href="./">ECFS 2026 Conference Data Archive</a>
+      <nav aria-label="Primary navigation">
+        <a href="./">Browse</a>
+        <a href="intelligence.html" aria-current="page">Intelligence</a>
+        <a href="./#tracks">Tracks</a>
+        <a href="./#sessions">Sessions</a>
+        <a class="download-link" href="ecfs_2026_conference_presentations.json" download>Full JSON</a>
+      </nav>
+    </header>
+
+    <main class="dashboard-shell">
+      <section class="masthead">
+        <div>
+          <h1>ECFS 2026 <span>Abstract Intelligence</span> Dashboard</h1>
+          <p>Topic-level view of ECFS 2026 programme records, posters, sessions, and abstract text. Every metric opens the matching records with ECFS source links.</p>
+        </div>
+      </section>
+
+      <section class="dashboard-loading" id="dashboard-loading" aria-live="polite" aria-busy="true">
+        <span class="loading-mark" aria-hidden="true"></span>
+        <span>Loading data</span>
+      </section>
+
+      <section class="kpi-grid" id="kpi-grid" aria-label="Key metrics"></section>
+
+      <section class="section-block insight-section">
+        <h2><span class="dot cyan"></span>Top Intelligence Findings</h2>
+        <div class="insight-box">
+          <ul class="insight-list" id="insight-list"></ul>
+        </div>
+      </section>
+
+      <section class="section-block">
+        <h2><span class="dot blue"></span>Session Landscape & Track Distribution</h2>
+        <div class="grid-2">
+          <article class="card">
+            <h3>Presentation format distribution</h3>
+            <div class="chart-wrap"><canvas id="sessionChart"></canvas></div>
+            <p class="hint">Click any segment to view matching records.</p>
+          </article>
+          <article class="card">
+            <h3>Top ECFS tracks by record volume</h3>
+            <div class="bar-list" id="trackBars"></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block">
+        <h2><span class="dot amber"></span>Plenary & Featured Sessions</h2>
+        <article class="card">
+          <div class="plenary-list" id="plenary-list"></div>
+        </article>
+      </section>
+
+      <section class="section-block">
+        <h2><span class="dot purple"></span>Therapeutic Paradigm Evolution</h2>
+        <div class="grid-2">
+          <article class="card">
+            <h3>Care paradigm mentions</h3>
+            <div class="chart-wrap-lg"><canvas id="paradigmChart"></canvas></div>
+            <p class="hint">Click any bar to view records matching that theme.</p>
+          </article>
+          <article class="card">
+            <h3>Advanced modalities</h3>
+            <div class="chart-wrap-lg"><canvas id="modalityChart"></canvas></div>
+            <p class="hint">Click any bar to inspect the matching records.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block">
+        <h2><span class="dot cyan"></span>Therapy & Pathogen Landscape</h2>
+        <div class="grid-2">
+          <article class="card">
+            <h3>Top named therapies</h3>
+            <div class="bar-list" id="therapyBars"></div>
+          </article>
+          <article class="card">
+            <h3>Pathogens and microbiology</h3>
+            <div class="bar-list" id="pathogenBars"></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block">
+        <h2><span class="dot green"></span>CFTR, Genotype & Biomarker Landscape</h2>
+        <div class="grid-2">
+          <article class="card">
+            <h3>Most studied markers</h3>
+            <div class="chart-wrap"><canvas id="markerChart"></canvas></div>
+            <p class="hint">Click any slice to view records.</p>
+          </article>
+          <article class="card">
+            <h3>Emerging targets and methods</h3>
+            <div class="bar-list" id="emergingBars"></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block">
+        <h2><span class="dot amber"></span>Clinical Trial Landscape & Outcome Endpoints</h2>
+        <div class="grid-3">
+          <article class="card">
+            <h3>Study design mentions</h3>
+            <div class="chart-wrap"><canvas id="studyChart"></canvas></div>
+          </article>
+          <article class="card">
+            <h3>Outcome endpoint mentions</h3>
+            <div class="chart-wrap"><canvas id="endpointChart"></canvas></div>
+          </article>
+          <article class="card">
+            <h3>Population focus</h3>
+            <div class="chart-wrap"><canvas id="populationChart"></canvas></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block">
+        <h2><span class="dot red"></span>Thematic Intelligence</h2>
+        <div class="grid-3" id="theme-cards"></div>
+      </section>
+
+      <section class="section-block">
+        <h2><span class="dot blue"></span>CF Care Research Intensity</h2>
+        <article class="card">
+          <div class="chart-wrap-lg"><canvas id="careChart"></canvas></div>
+          <p class="hint">Click a care domain to list all matching records.</p>
+        </article>
+      </section>
+    </main>
+
+    <dialog class="records-dialog" id="records-dialog">
+      <article class="records-panel">
+        <button class="dialog-close" type="button" aria-label="Close records dialog">Close</button>
+        <header>
+          <p class="eyebrow" id="dialog-kind">Data point</p>
+          <h2 id="dialog-title">Matching records</h2>
+          <p id="dialog-summary"></p>
+        </header>
+        <div class="dialog-tools">
+          <input id="dialog-search" type="search" placeholder="Filter matching records">
+          <button id="copy-urls" type="button">Copy URLs</button>
+        </div>
+        <ol id="records-list" class="records-list"></ol>
+        <button id="load-more-records" class="load-more" type="button">Load more</button>
+      </article>
+    </dialog>
+
+    <footer class="site-footer">
+      <p>Static archive for search, citation, and AI retrieval. ECFS programme and presentation source links are retained on every record.</p>
+    </footer>
+  </body>
+</html>

@@ -1,6 +1,6 @@
 # ECFS 2026 Conference Data Archive
 
-Static GitHub Pages interface for `ecfs_2026_conference_presentations.json`, with a plain-text Markdown export at `assets/data/ecfs_2026_conference_presentations.md`.
+Static GitHub Pages interface for `ecfs_2026_conference_presentations.json`, with a plain-text Markdown export at `assets/data/ecfs_2026_conference_presentations.md` and an interactive intelligence dashboard at `intelligence.html`.
 
 The site follows the same static archive pattern as `conference-data`, adapted for the ECFS Lisbon 2026 programme and color system.
 
