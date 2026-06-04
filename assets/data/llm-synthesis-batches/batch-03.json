@@ -1,0 +1,1801 @@
+{
+  "batch": "03",
+  "start_index": 309,
+  "end_index": 411,
+  "records": [
+    {
+      "uid": "presentation-216",
+      "primary_theme": "Infection persistence and antimicrobial strategy",
+      "secondary_themes": [],
+      "strategic_signals": [
+        "infection_risk"
+      ],
+      "clinical_domain": "infection",
+      "population": "mixed/unspecified",
+      "study_type": "translational/preclinical",
+      "why_it_matters": "Addresses persistent infection or antimicrobial choices that remain important despite major advances in CF therapy.",
+      "confidence": "medium",
+      "confidence_reason": "Unstructured or truncated abstract text gives the topic but limits detail."
+    },
+    {
+      "uid": "presentation-233",
+      "primary_theme": "Precision CFTR biology and rare variants",
+      "secondary_themes": [
+        "Diagnostics, screening, and biomarkers",
+        "Modulator-era optimization"
+      ],
+      "strategic_signals": [
+        "diagnostic_shift",
+        "pediatric_focus"
+      ],
+      "clinical_domain": "diagnostics",
+      "population": "pediatric",
+      "study_type": "case/programme",
+      "why_it_matters": "Improves interpretation of CFTR mechanisms, rare variants, or functional response needed for precision treatment.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-176",
+      "primary_theme": "Care burden, adherence, and psychosocial impact",
+      "secondary_themes": [
+        "Modulator-era optimization",
+        "Service delivery, access, and multidisciplinary care"
+      ],
+      "strategic_signals": [
+        "care_burden",
+        "practice_implication"
+      ],
+      "clinical_domain": "psychosocial",
+      "population": "adult",
+      "study_type": "qualitative/survey",
+      "why_it_matters": "Highlights psychosocial, adherence, identity, or daily-life consequences that clinical endpoints can miss.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-136",
+      "primary_theme": "Nutrition, GI, and metabolic complications",
+      "secondary_themes": [
+        "Modulator-era optimization",
+        "Diagnostics, screening, and biomarkers"
+      ],
+      "strategic_signals": [
+        "practice_implication",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "nutrition/GI",
+      "population": "adult",
+      "study_type": "observational",
+      "why_it_matters": "Updates GI, liver, metabolic, or body-composition management as CF outcomes and risks change.",
+      "confidence": "medium",
+      "confidence_reason": "Unstructured or truncated abstract text gives the topic but limits detail."
+    },
+    {
+      "uid": "presentation-309",
+      "primary_theme": "Diagnostics, screening, and biomarkers",
+      "secondary_themes": [
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "practice_implication",
+        "diagnostic_shift",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "diagnostics",
+      "population": "adult",
+      "study_type": "registry",
+      "why_it_matters": "Shows how screening, biomarkers, imaging, or functional tests can sharpen diagnosis and monitoring.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-119",
+      "primary_theme": "Precision CFTR biology and rare variants",
+      "secondary_themes": [
+        "Diagnostics, screening, and biomarkers",
+        "Modulator-era optimization"
+      ],
+      "strategic_signals": [
+        "diagnostic_shift",
+        "emerging_modality"
+      ],
+      "clinical_domain": "CFTR biology",
+      "population": "mixed/unspecified",
+      "study_type": "translational/preclinical",
+      "why_it_matters": "Improves interpretation of CFTR mechanisms, rare variants, or functional response needed for precision treatment.",
+      "confidence": "medium",
+      "confidence_reason": "Unstructured or truncated abstract text gives the topic but limits detail."
+    },
+    {
+      "uid": "presentation-218",
+      "primary_theme": "Infection persistence and antimicrobial strategy",
+      "secondary_themes": [
+        "Nutrition, GI, and metabolic complications"
+      ],
+      "strategic_signals": [
+        "infection_risk"
+      ],
+      "clinical_domain": "infection",
+      "population": "mixed/unspecified",
+      "study_type": "translational/preclinical",
+      "why_it_matters": "Addresses persistent infection or antimicrobial choices that remain important despite major advances in CF therapy.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-234",
+      "primary_theme": "Diagnostics, screening, and biomarkers",
+      "secondary_themes": [
+        "Precision CFTR biology and rare variants",
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "practice_implication",
+        "diagnostic_shift",
+        "pediatric_focus",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "diagnostics",
+      "population": "mixed/unspecified",
+      "study_type": "observational",
+      "why_it_matters": "Shows how screening, biomarkers, imaging, or functional tests can sharpen diagnosis and monitoring.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-178",
+      "primary_theme": "Service delivery, access, and multidisciplinary care",
+      "secondary_themes": [
+        "Care burden, adherence, and psychosocial impact",
+        "Nutrition, GI, and metabolic complications"
+      ],
+      "strategic_signals": [
+        "practice_implication",
+        "care_burden",
+        "pediatric_focus"
+      ],
+      "clinical_domain": "service delivery",
+      "population": "pediatric",
+      "study_type": "case/programme",
+      "why_it_matters": "Clarifies how CF services, pathways, or access models may need to adapt for patients and families.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-141",
+      "primary_theme": "Diagnostics, screening, and biomarkers",
+      "secondary_themes": [
+        "Nutrition, GI, and metabolic complications",
+        "Modulator-era optimization"
+      ],
+      "strategic_signals": [
+        "practice_implication",
+        "pediatric_focus"
+      ],
+      "clinical_domain": "diagnostics",
+      "population": "pediatric",
+      "study_type": "observational",
+      "why_it_matters": "Shows how screening, biomarkers, imaging, or functional tests can sharpen diagnosis and monitoring.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-305",
+      "primary_theme": "Diagnostics, screening, and biomarkers",
+      "secondary_themes": [
+        "Nutrition, GI, and metabolic complications",
+        "Modulator-era optimization"
+      ],
+      "strategic_signals": [
+        "practice_implication",
+        "pediatric_focus",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "diagnostics",
+      "population": "mixed/unspecified",
+      "study_type": "registry",
+      "why_it_matters": "Shows how screening, biomarkers, imaging, or functional tests can sharpen diagnosis and monitoring.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-128",
+      "primary_theme": "Precision CFTR biology and rare variants",
+      "secondary_themes": [],
+      "strategic_signals": [
+        "emerging_modality"
+      ],
+      "clinical_domain": "CFTR biology",
+      "population": "mixed/unspecified",
+      "study_type": "translational/preclinical",
+      "why_it_matters": "Improves interpretation of CFTR mechanisms, rare variants, or functional response needed for precision treatment.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-213",
+      "primary_theme": "Infection persistence and antimicrobial strategy",
+      "secondary_themes": [
+        "Precision CFTR biology and rare variants",
+        "Nutrition, GI, and metabolic complications"
+      ],
+      "strategic_signals": [
+        "infection_risk"
+      ],
+      "clinical_domain": "infection",
+      "population": "mixed/unspecified",
+      "study_type": "translational/preclinical",
+      "why_it_matters": "Addresses persistent infection or antimicrobial choices that remain important despite major advances in CF therapy.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-235",
+      "primary_theme": "Diagnostics, screening, and biomarkers",
+      "secondary_themes": [
+        "Infection persistence and antimicrobial strategy",
+        "Modulator-era optimization"
+      ],
+      "strategic_signals": [
+        "diagnostic_shift",
+        "practice_implication",
+        "access_equity"
+      ],
+      "clinical_domain": "diagnostics",
+      "population": "adult",
+      "study_type": "case/programme",
+      "why_it_matters": "Shows how screening, biomarkers, imaging, or functional tests can sharpen diagnosis and monitoring.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-173",
+      "primary_theme": "Modulator-era optimization",
+      "secondary_themes": [
+        "Care burden, adherence, and psychosocial impact",
+        "Precision CFTR biology and rare variants",
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "care_burden",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "modulators",
+      "population": "adult",
+      "study_type": "observational",
+      "why_it_matters": "Helps define how CFTR modulator care should be optimized across benefits, safety, monitoring, or treatment burden.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-140",
+      "primary_theme": "Nutrition, GI, and metabolic complications",
+      "secondary_themes": [],
+      "strategic_signals": [
+        "practice_implication"
+      ],
+      "clinical_domain": "nutrition/GI",
+      "population": "adult",
+      "study_type": "observational",
+      "why_it_matters": "Updates GI, liver, metabolic, or body-composition management as CF outcomes and risks change.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-307",
+      "primary_theme": "Nutrition, GI, and metabolic complications",
+      "secondary_themes": [
+        "Care burden, adherence, and psychosocial impact",
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "care_burden",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "nutrition/GI",
+      "population": "adult",
+      "study_type": "translational/preclinical",
+      "why_it_matters": "Updates GI, liver, metabolic, or body-composition management as CF outcomes and risks change.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-212",
+      "primary_theme": "Infection persistence and antimicrobial strategy",
+      "secondary_themes": [
+        "Precision CFTR biology and rare variants",
+        "Emerging genetic, RNA, and cell-model therapies"
+      ],
+      "strategic_signals": [
+        "infection_risk"
+      ],
+      "clinical_domain": "infection",
+      "population": "mixed/unspecified",
+      "study_type": "translational/preclinical",
+      "why_it_matters": "Addresses persistent infection or antimicrobial choices that remain important despite major advances in CF therapy.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-230",
+      "primary_theme": "Precision CFTR biology and rare variants",
+      "secondary_themes": [
+        "Diagnostics, screening, and biomarkers",
+        "Real-world outcomes and registries",
+        "Nutrition, GI, and metabolic complications"
+      ],
+      "strategic_signals": [
+        "diagnostic_shift",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "diagnostics",
+      "population": "adult",
+      "study_type": "observational",
+      "why_it_matters": "Improves interpretation of CFTR mechanisms, rare variants, or functional response needed for precision treatment.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-177",
+      "primary_theme": "Care burden, adherence, and psychosocial impact",
+      "secondary_themes": [
+        "Modulator-era optimization",
+        "Real-world outcomes and registries",
+        "Infection persistence and antimicrobial strategy"
+      ],
+      "strategic_signals": [
+        "care_burden",
+        "infection_risk",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "psychosocial",
+      "population": "mixed/unspecified",
+      "study_type": "observational",
+      "why_it_matters": "Highlights psychosocial, adherence, identity, or daily-life consequences that clinical endpoints can miss.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-135",
+      "primary_theme": "Nutrition, GI, and metabolic complications",
+      "secondary_themes": [
+        "Modulator-era optimization",
+        "Care burden, adherence, and psychosocial impact",
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "care_burden",
+        "pediatric_focus"
+      ],
+      "clinical_domain": "nutrition/GI",
+      "population": "pediatric",
+      "study_type": "observational",
+      "why_it_matters": "Updates GI, liver, metabolic, or body-composition management as CF outcomes and risks change.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-312",
+      "primary_theme": "Nutrition, GI, and metabolic complications",
+      "secondary_themes": [
+        "Modulator-era optimization",
+        "Precision CFTR biology and rare variants",
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "practice_implication",
+        "pediatric_focus",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "nutrition/GI",
+      "population": "pediatric",
+      "study_type": "observational",
+      "why_it_matters": "Updates GI, liver, metabolic, or body-composition management as CF outcomes and risks change.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-220",
+      "primary_theme": "Infection persistence and antimicrobial strategy",
+      "secondary_themes": [
+        "Care burden, adherence, and psychosocial impact",
+        "Nutrition, GI, and metabolic complications"
+      ],
+      "strategic_signals": [
+        "infection_risk",
+        "emerging_modality"
+      ],
+      "clinical_domain": "infection",
+      "population": "mixed/unspecified",
+      "study_type": "translational/preclinical",
+      "why_it_matters": "Addresses persistent infection or antimicrobial choices that remain important despite major advances in CF therapy.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-228",
+      "primary_theme": "Diagnostics, screening, and biomarkers",
+      "secondary_themes": [
+        "Modulator-era optimization",
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "practice_implication",
+        "diagnostic_shift",
+        "pediatric_focus",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "diagnostics",
+      "population": "pediatric",
+      "study_type": "observational",
+      "why_it_matters": "Shows how screening, biomarkers, imaging, or functional tests can sharpen diagnosis and monitoring.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-142",
+      "primary_theme": "Nutrition, GI, and metabolic complications",
+      "secondary_themes": [
+        "Modulator-era optimization",
+        "Precision CFTR biology and rare variants",
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "practice_implication",
+        "diagnostic_shift",
+        "pediatric_focus",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "nutrition/GI",
+      "population": "pediatric",
+      "study_type": "observational",
+      "why_it_matters": "Updates GI, liver, metabolic, or body-composition management as CF outcomes and risks change.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-306",
+      "primary_theme": "Nutrition, GI, and metabolic complications",
+      "secondary_themes": [
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "pediatric_focus",
+        "diagnostic_shift"
+      ],
+      "clinical_domain": "nutrition/GI",
+      "population": "pediatric",
+      "study_type": "observational",
+      "why_it_matters": "Updates GI, liver, metabolic, or body-composition management as CF outcomes and risks change.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-862",
+      "primary_theme": "Service delivery, access, and multidisciplinary care",
+      "secondary_themes": [],
+      "strategic_signals": [],
+      "clinical_domain": "service delivery",
+      "population": "mixed/unspecified",
+      "study_type": "case/programme",
+      "why_it_matters": "Clarifies how CF services, pathways, or access models may need to adapt for patients and families.",
+      "confidence": "low",
+      "confidence_reason": "No abstract evidence was available; classification uses title and session metadata."
+    },
+    {
+      "uid": "presentation-151",
+      "primary_theme": "Modulator-era optimization",
+      "secondary_themes": [
+        "Precision CFTR biology and rare variants",
+        "Emerging genetic, RNA, and cell-model therapies",
+        "Diagnostics, screening, and biomarkers"
+      ],
+      "strategic_signals": [
+        "emerging_modality",
+        "access_equity",
+        "diagnostic_shift"
+      ],
+      "clinical_domain": "modulators",
+      "population": "mixed/unspecified",
+      "study_type": "translational/preclinical",
+      "why_it_matters": "Helps define how CFTR modulator care should be optimized across benefits, safety, monitoring, or treatment burden.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-272",
+      "primary_theme": "Real-world outcomes and registries",
+      "secondary_themes": [
+        "Modulator-era optimization"
+      ],
+      "strategic_signals": [
+        "real_world_evidence",
+        "practice_implication"
+      ],
+      "clinical_domain": "epidemiology",
+      "population": "adult",
+      "study_type": "registry",
+      "why_it_matters": "Adds real-world evidence for tracking outcomes, safety, access, and service changes beyond controlled trials.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-384",
+      "primary_theme": "Infection persistence and antimicrobial strategy",
+      "secondary_themes": [
+        "Modulator-era optimization",
+        "Care burden, adherence, and psychosocial impact",
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "care_burden",
+        "infection_risk",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "infection",
+      "population": "adult",
+      "study_type": "trial",
+      "why_it_matters": "Addresses persistent infection or antimicrobial choices that remain important despite major advances in CF therapy.",
+      "confidence": "medium",
+      "confidence_reason": "Unstructured or truncated abstract text gives the topic but limits detail."
+    },
+    {
+      "uid": "presentation-133",
+      "primary_theme": "Nutrition, GI, and metabolic complications",
+      "secondary_themes": [
+        "Modulator-era optimization",
+        "Real-world outcomes and registries",
+        "Precision CFTR biology and rare variants"
+      ],
+      "strategic_signals": [
+        "real_world_evidence",
+        "practice_implication"
+      ],
+      "clinical_domain": "nutrition/GI",
+      "population": "mixed/unspecified",
+      "study_type": "registry",
+      "why_it_matters": "Updates GI, liver, metabolic, or body-composition management as CF outcomes and risks change.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-864",
+      "primary_theme": "Real-world outcomes and registries",
+      "secondary_themes": [],
+      "strategic_signals": [
+        "real_world_evidence"
+      ],
+      "clinical_domain": "epidemiology",
+      "population": "adult",
+      "study_type": "case/programme",
+      "why_it_matters": "Adds real-world evidence for tracking outcomes, safety, access, and service changes beyond controlled trials.",
+      "confidence": "low",
+      "confidence_reason": "No abstract evidence was available; classification uses title and session metadata."
+    },
+    {
+      "uid": "presentation-155",
+      "primary_theme": "Modulator-era optimization",
+      "secondary_themes": [
+        "Precision CFTR biology and rare variants",
+        "Diagnostics, screening, and biomarkers",
+        "Nutrition, GI, and metabolic complications"
+      ],
+      "strategic_signals": [
+        "diagnostic_shift",
+        "pediatric_focus"
+      ],
+      "clinical_domain": "modulators",
+      "population": "pediatric",
+      "study_type": "trial",
+      "why_it_matters": "Helps define how CFTR modulator care should be optimized across benefits, safety, monitoring, or treatment burden.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-275",
+      "primary_theme": "Modulator-era optimization",
+      "secondary_themes": [
+        "Care burden, adherence, and psychosocial impact",
+        "Real-world outcomes and registries",
+        "Precision CFTR biology and rare variants"
+      ],
+      "strategic_signals": [
+        "care_burden",
+        "real_world_evidence",
+        "practice_implication"
+      ],
+      "clinical_domain": "modulators",
+      "population": "mixed/unspecified",
+      "study_type": "trial",
+      "why_it_matters": "Helps define how CFTR modulator care should be optimized across benefits, safety, monitoring, or treatment burden.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-385",
+      "primary_theme": "Infection persistence and antimicrobial strategy",
+      "secondary_themes": [
+        "Nutrition, GI, and metabolic complications",
+        "Real-world outcomes and registries",
+        "Diagnostics, screening, and biomarkers"
+      ],
+      "strategic_signals": [
+        "infection_risk",
+        "emerging_modality",
+        "practice_implication"
+      ],
+      "clinical_domain": "infection",
+      "population": "mixed/unspecified",
+      "study_type": "trial",
+      "why_it_matters": "Addresses persistent infection or antimicrobial choices that remain important despite major advances in CF therapy.",
+      "confidence": "medium",
+      "confidence_reason": "Unstructured or truncated abstract text gives the topic but limits detail."
+    },
+    {
+      "uid": "presentation-134",
+      "primary_theme": "Nutrition, GI, and metabolic complications",
+      "secondary_themes": [
+        "Modulator-era optimization",
+        "Diagnostics, screening, and biomarkers",
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "practice_implication",
+        "diagnostic_shift",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "nutrition/GI",
+      "population": "adult",
+      "study_type": "observational",
+      "why_it_matters": "Updates GI, liver, metabolic, or body-composition management as CF outcomes and risks change.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-863",
+      "primary_theme": "Infection persistence and antimicrobial strategy",
+      "secondary_themes": [
+        "Modulator-era optimization"
+      ],
+      "strategic_signals": [
+        "infection_risk",
+        "pediatric_focus"
+      ],
+      "clinical_domain": "infection",
+      "population": "pediatric",
+      "study_type": "observational",
+      "why_it_matters": "Addresses persistent infection or antimicrobial choices that remain important despite major advances in CF therapy.",
+      "confidence": "low",
+      "confidence_reason": "No abstract evidence was available; classification uses title and session metadata."
+    },
+    {
+      "uid": "presentation-152",
+      "primary_theme": "Modulator-era optimization",
+      "secondary_themes": [
+        "Precision CFTR biology and rare variants",
+        "Diagnostics, screening, and biomarkers"
+      ],
+      "strategic_signals": [
+        "pediatric_focus",
+        "emerging_modality",
+        "practice_implication"
+      ],
+      "clinical_domain": "modulators",
+      "population": "pediatric",
+      "study_type": "trial",
+      "why_it_matters": "Helps define how CFTR modulator care should be optimized across benefits, safety, monitoring, or treatment burden.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-276",
+      "primary_theme": "Infection persistence and antimicrobial strategy",
+      "secondary_themes": [
+        "Modulator-era optimization",
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "infection_risk",
+        "real_world_evidence",
+        "practice_implication"
+      ],
+      "clinical_domain": "infection",
+      "population": "mixed/unspecified",
+      "study_type": "registry",
+      "why_it_matters": "Addresses persistent infection or antimicrobial choices that remain important despite major advances in CF therapy.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-383",
+      "primary_theme": "Infection persistence and antimicrobial strategy",
+      "secondary_themes": [
+        "Diagnostics, screening, and biomarkers",
+        "Nutrition, GI, and metabolic complications"
+      ],
+      "strategic_signals": [
+        "pediatric_focus",
+        "infection_risk"
+      ],
+      "clinical_domain": "infection",
+      "population": "pediatric",
+      "study_type": "trial",
+      "why_it_matters": "Addresses persistent infection or antimicrobial choices that remain important despite major advances in CF therapy.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-129",
+      "primary_theme": "Nutrition, GI, and metabolic complications",
+      "secondary_themes": [
+        "Real-world outcomes and registries",
+        "Modulator-era optimization",
+        "Precision CFTR biology and rare variants"
+      ],
+      "strategic_signals": [
+        "practice_implication",
+        "pediatric_focus",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "nutrition/GI",
+      "population": "pediatric",
+      "study_type": "registry",
+      "why_it_matters": "Updates GI, liver, metabolic, or body-composition management as CF outcomes and risks change.",
+      "confidence": "medium",
+      "confidence_reason": "Unstructured or truncated abstract text gives the topic but limits detail."
+    },
+    {
+      "uid": "presentation-154",
+      "primary_theme": "Precision CFTR biology and rare variants",
+      "secondary_themes": [
+        "Emerging genetic, RNA, and cell-model therapies",
+        "Service delivery, access, and multidisciplinary care"
+      ],
+      "strategic_signals": [
+        "access_equity",
+        "emerging_modality",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "CFTR biology",
+      "population": "mixed/unspecified",
+      "study_type": "registry",
+      "why_it_matters": "Improves interpretation of CFTR mechanisms, rare variants, or functional response needed for precision treatment.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-271",
+      "primary_theme": "Modulator-era optimization",
+      "secondary_themes": [
+        "Real-world outcomes and registries",
+        "Infection persistence and antimicrobial strategy",
+        "Precision CFTR biology and rare variants"
+      ],
+      "strategic_signals": [
+        "care_burden",
+        "access_equity",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "modulators",
+      "population": "mixed/unspecified",
+      "study_type": "registry",
+      "why_it_matters": "Helps define how CFTR modulator care should be optimized across benefits, safety, monitoring, or treatment burden.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-217",
+      "primary_theme": "Infection persistence and antimicrobial strategy",
+      "secondary_themes": [
+        "Diagnostics, screening, and biomarkers",
+        "Nutrition, GI, and metabolic complications"
+      ],
+      "strategic_signals": [
+        "infection_risk",
+        "emerging_modality",
+        "practice_implication"
+      ],
+      "clinical_domain": "infection",
+      "population": "mixed/unspecified",
+      "study_type": "translational/preclinical",
+      "why_it_matters": "Addresses persistent infection or antimicrobial choices that remain important despite major advances in CF therapy.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-132",
+      "primary_theme": "Nutrition, GI, and metabolic complications",
+      "secondary_themes": [
+        "Real-world outcomes and registries",
+        "Modulator-era optimization",
+        "Precision CFTR biology and rare variants"
+      ],
+      "strategic_signals": [
+        "pediatric_focus",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "nutrition/GI",
+      "population": "pediatric",
+      "study_type": "observational",
+      "why_it_matters": "Updates GI, liver, metabolic, or body-composition management as CF outcomes and risks change.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-865",
+      "primary_theme": "Precision CFTR biology and rare variants",
+      "secondary_themes": [],
+      "strategic_signals": [],
+      "clinical_domain": "CFTR biology",
+      "population": "mixed/unspecified",
+      "study_type": "case/programme",
+      "why_it_matters": "Improves interpretation of CFTR mechanisms, rare variants, or functional response needed for precision treatment.",
+      "confidence": "low",
+      "confidence_reason": "No abstract evidence was available; classification uses title and session metadata."
+    },
+    {
+      "uid": "presentation-156",
+      "primary_theme": "Modulator-era optimization",
+      "secondary_themes": [
+        "Precision CFTR biology and rare variants",
+        "Nutrition, GI, and metabolic complications",
+        "Diagnostics, screening, and biomarkers"
+      ],
+      "strategic_signals": [
+        "pediatric_focus",
+        "access_equity",
+        "practice_implication"
+      ],
+      "clinical_domain": "modulators",
+      "population": "pregnancy/fertility",
+      "study_type": "case/programme",
+      "why_it_matters": "Helps define how CFTR modulator care should be optimized across benefits, safety, monitoring, or treatment burden.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-273",
+      "primary_theme": "Infection persistence and antimicrobial strategy",
+      "secondary_themes": [
+        "Modulator-era optimization",
+        "Real-world outcomes and registries",
+        "Precision CFTR biology and rare variants"
+      ],
+      "strategic_signals": [
+        "practice_implication",
+        "infection_risk",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "infection",
+      "population": "mixed/unspecified",
+      "study_type": "registry",
+      "why_it_matters": "Addresses persistent infection or antimicrobial choices that remain important despite major advances in CF therapy.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-325",
+      "primary_theme": "Infection persistence and antimicrobial strategy",
+      "secondary_themes": [
+        "Modulator-era optimization",
+        "Precision CFTR biology and rare variants"
+      ],
+      "strategic_signals": [
+        "infection_risk",
+        "emerging_modality",
+        "pediatric_focus"
+      ],
+      "clinical_domain": "infection",
+      "population": "pediatric",
+      "study_type": "case/programme",
+      "why_it_matters": "Addresses persistent infection or antimicrobial choices that remain important despite major advances in CF therapy.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-131",
+      "primary_theme": "Nutrition, GI, and metabolic complications",
+      "secondary_themes": [
+        "Modulator-era optimization",
+        "Service delivery, access, and multidisciplinary care"
+      ],
+      "strategic_signals": [
+        "practice_implication",
+        "pediatric_focus"
+      ],
+      "clinical_domain": "nutrition/GI",
+      "population": "pediatric",
+      "study_type": "qualitative/survey",
+      "why_it_matters": "Updates GI, liver, metabolic, or body-composition management as CF outcomes and risks change.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-153",
+      "primary_theme": "Service delivery, access, and multidisciplinary care",
+      "secondary_themes": [
+        "Modulator-era optimization",
+        "Diagnostics, screening, and biomarkers"
+      ],
+      "strategic_signals": [
+        "pediatric_focus",
+        "practice_implication",
+        "access_equity"
+      ],
+      "clinical_domain": "service delivery",
+      "population": "pregnancy/fertility",
+      "study_type": "qualitative/survey",
+      "why_it_matters": "Clarifies how CF services, pathways, or access models may need to adapt for patients and families.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-274",
+      "primary_theme": "Real-world outcomes and registries",
+      "secondary_themes": [
+        "Modulator-era optimization"
+      ],
+      "strategic_signals": [
+        "real_world_evidence",
+        "practice_implication"
+      ],
+      "clinical_domain": "epidemiology",
+      "population": "mixed/unspecified",
+      "study_type": "registry",
+      "why_it_matters": "Adds real-world evidence for tracking outcomes, safety, access, and service changes beyond controlled trials.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-382",
+      "primary_theme": "Infection persistence and antimicrobial strategy",
+      "secondary_themes": [
+        "Service delivery, access, and multidisciplinary care"
+      ],
+      "strategic_signals": [
+        "practice_implication",
+        "infection_risk"
+      ],
+      "clinical_domain": "infection",
+      "population": "mixed/unspecified",
+      "study_type": "case/programme",
+      "why_it_matters": "Addresses persistent infection or antimicrobial choices that remain important despite major advances in CF therapy.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-866",
+      "primary_theme": "Service delivery, access, and multidisciplinary care",
+      "secondary_themes": [],
+      "strategic_signals": [],
+      "clinical_domain": "service delivery",
+      "population": "mixed/unspecified",
+      "study_type": "case/programme",
+      "why_it_matters": "Clarifies how CF services, pathways, or access models may need to adapt for patients and families.",
+      "confidence": "low",
+      "confidence_reason": "No abstract evidence was available; classification uses title and session metadata."
+    },
+    {
+      "uid": "presentation-244",
+      "primary_theme": "Modulator-era optimization",
+      "secondary_themes": [
+        "Care burden, adherence, and psychosocial impact",
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "care_burden",
+        "infection_risk",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "modulators",
+      "population": "mixed/unspecified",
+      "study_type": "trial",
+      "why_it_matters": "Helps define how CFTR modulator care should be optimized across benefits, safety, monitoring, or treatment burden.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-386",
+      "primary_theme": "Modulator-era optimization",
+      "secondary_themes": [
+        "Care burden, adherence, and psychosocial impact",
+        "Real-world outcomes and registries",
+        "Service delivery, access, and multidisciplinary care"
+      ],
+      "strategic_signals": [
+        "real_world_evidence"
+      ],
+      "clinical_domain": "modulators",
+      "population": "adult",
+      "study_type": "observational",
+      "why_it_matters": "Helps define how CFTR modulator care should be optimized across benefits, safety, monitoring, or treatment burden.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-183",
+      "primary_theme": "Physiotherapy, exercise, and airway clearance",
+      "secondary_themes": [
+        "Modulator-era optimization",
+        "Service delivery, access, and multidisciplinary care"
+      ],
+      "strategic_signals": [
+        "practice_implication"
+      ],
+      "clinical_domain": "physiotherapy",
+      "population": "adult",
+      "study_type": "observational",
+      "why_it_matters": "Informs exercise, rehabilitation, airway clearance, or functional monitoring in modern CF care.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-297",
+      "primary_theme": "Nutrition, GI, and metabolic complications",
+      "secondary_themes": [
+        "Real-world outcomes and registries",
+        "Care burden, adherence, and psychosocial impact"
+      ],
+      "strategic_signals": [
+        "care_burden",
+        "pediatric_focus",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "nutrition/GI",
+      "population": "pediatric",
+      "study_type": "observational",
+      "why_it_matters": "Updates GI, liver, metabolic, or body-composition management as CF outcomes and risks change.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-110",
+      "primary_theme": "Precision CFTR biology and rare variants",
+      "secondary_themes": [
+        "Modulator-era optimization",
+        "Emerging genetic, RNA, and cell-model therapies",
+        "Service delivery, access, and multidisciplinary care"
+      ],
+      "strategic_signals": [
+        "emerging_modality",
+        "access_equity",
+        "diagnostic_shift"
+      ],
+      "clinical_domain": "CFTR biology",
+      "population": "mixed/unspecified",
+      "study_type": "translational/preclinical",
+      "why_it_matters": "Improves interpretation of CFTR mechanisms, rare variants, or functional response needed for precision treatment.",
+      "confidence": "medium",
+      "confidence_reason": "Unstructured or truncated abstract text gives the topic but limits detail."
+    },
+    {
+      "uid": "presentation-243",
+      "primary_theme": "Modulator-era optimization",
+      "secondary_themes": [
+        "Diagnostics, screening, and biomarkers",
+        "Infection persistence and antimicrobial strategy",
+        "Physiotherapy, exercise, and airway clearance"
+      ],
+      "strategic_signals": [
+        "pediatric_focus",
+        "care_burden",
+        "practice_implication"
+      ],
+      "clinical_domain": "modulators",
+      "population": "pediatric",
+      "study_type": "observational",
+      "why_it_matters": "Helps define how CFTR modulator care should be optimized across benefits, safety, monitoring, or treatment burden.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-315",
+      "primary_theme": "Modulator-era optimization",
+      "secondary_themes": [
+        "Care burden, adherence, and psychosocial impact",
+        "Service delivery, access, and multidisciplinary care",
+        "Precision CFTR biology and rare variants"
+      ],
+      "strategic_signals": [
+        "care_burden",
+        "practice_implication"
+      ],
+      "clinical_domain": "modulators",
+      "population": "adult",
+      "study_type": "case/programme",
+      "why_it_matters": "Helps define how CFTR modulator care should be optimized across benefits, safety, monitoring, or treatment burden.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-187",
+      "primary_theme": "Physiotherapy, exercise, and airway clearance",
+      "secondary_themes": [
+        "Real-world outcomes and registries",
+        "Precision CFTR biology and rare variants"
+      ],
+      "strategic_signals": [
+        "practice_implication",
+        "diagnostic_shift",
+        "pediatric_focus",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "physiotherapy",
+      "population": "mixed/unspecified",
+      "study_type": "observational",
+      "why_it_matters": "Informs exercise, rehabilitation, airway clearance, or functional monitoring in modern CF care.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-296",
+      "primary_theme": "Nutrition, GI, and metabolic complications",
+      "secondary_themes": [
+        "Modulator-era optimization",
+        "Precision CFTR biology and rare variants",
+        "Diagnostics, screening, and biomarkers"
+      ],
+      "strategic_signals": [
+        "diagnostic_shift",
+        "practice_implication"
+      ],
+      "clinical_domain": "nutrition/GI",
+      "population": "adult",
+      "study_type": "observational",
+      "why_it_matters": "Updates GI, liver, metabolic, or body-composition management as CF outcomes and risks change.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-108",
+      "primary_theme": "Diagnostics, screening, and biomarkers",
+      "secondary_themes": [
+        "Modulator-era optimization",
+        "Precision CFTR biology and rare variants"
+      ],
+      "strategic_signals": [
+        "diagnostic_shift",
+        "practice_implication"
+      ],
+      "clinical_domain": "diagnostics",
+      "population": "mixed/unspecified",
+      "study_type": "observational",
+      "why_it_matters": "Shows how screening, biomarkers, imaging, or functional tests can sharpen diagnosis and monitoring.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-246",
+      "primary_theme": "Real-world outcomes and registries",
+      "secondary_themes": [
+        "Modulator-era optimization"
+      ],
+      "strategic_signals": [
+        "real_world_evidence"
+      ],
+      "clinical_domain": "epidemiology",
+      "population": "adult",
+      "study_type": "observational",
+      "why_it_matters": "Adds real-world evidence for tracking outcomes, safety, access, and service changes beyond controlled trials.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-380",
+      "primary_theme": "Care burden, adherence, and psychosocial impact",
+      "secondary_themes": [
+        "Service delivery, access, and multidisciplinary care",
+        "Infection persistence and antimicrobial strategy",
+        "Diagnostics, screening, and biomarkers"
+      ],
+      "strategic_signals": [
+        "care_burden",
+        "practice_implication"
+      ],
+      "clinical_domain": "psychosocial",
+      "population": "adult",
+      "study_type": "qualitative/survey",
+      "why_it_matters": "Highlights psychosocial, adherence, identity, or daily-life consequences that clinical endpoints can miss.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-184",
+      "primary_theme": "Physiotherapy, exercise, and airway clearance",
+      "secondary_themes": [
+        "Modulator-era optimization",
+        "Precision CFTR biology and rare variants"
+      ],
+      "strategic_signals": [
+        "practice_implication"
+      ],
+      "clinical_domain": "physiotherapy",
+      "population": "mixed/unspecified",
+      "study_type": "observational",
+      "why_it_matters": "Informs exercise, rehabilitation, airway clearance, or functional monitoring in modern CF care.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-295",
+      "primary_theme": "Nutrition, GI, and metabolic complications",
+      "secondary_themes": [
+        "Real-world outcomes and registries",
+        "Precision CFTR biology and rare variants"
+      ],
+      "strategic_signals": [
+        "care_burden",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "nutrition/GI",
+      "population": "mixed/unspecified",
+      "study_type": "observational",
+      "why_it_matters": "Updates GI, liver, metabolic, or body-composition management as CF outcomes and risks change.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-112",
+      "primary_theme": "Modulator-era optimization",
+      "secondary_themes": [
+        "Precision CFTR biology and rare variants"
+      ],
+      "strategic_signals": [
+        "practice_implication"
+      ],
+      "clinical_domain": "modulators",
+      "population": "mixed/unspecified",
+      "study_type": "translational/preclinical",
+      "why_it_matters": "Helps define how CFTR modulator care should be optimized across benefits, safety, monitoring, or treatment burden.",
+      "confidence": "medium",
+      "confidence_reason": "Unstructured or truncated abstract text gives the topic but limits detail."
+    },
+    {
+      "uid": "presentation-107",
+      "primary_theme": "Modulator-era optimization",
+      "secondary_themes": [
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "practice_implication",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "modulators",
+      "population": "pregnancy/fertility",
+      "study_type": "translational/preclinical",
+      "why_it_matters": "Helps define how CFTR modulator care should be optimized across benefits, safety, monitoring, or treatment burden.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-245",
+      "primary_theme": "Real-world outcomes and registries",
+      "secondary_themes": [
+        "Modulator-era optimization",
+        "Service delivery, access, and multidisciplinary care"
+      ],
+      "strategic_signals": [
+        "real_world_evidence",
+        "access_equity",
+        "practice_implication"
+      ],
+      "clinical_domain": "epidemiology",
+      "population": "transplant/advanced disease",
+      "study_type": "registry",
+      "why_it_matters": "Adds real-world evidence for tracking outcomes, safety, access, and service changes beyond controlled trials.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-381",
+      "primary_theme": "Care burden, adherence, and psychosocial impact",
+      "secondary_themes": [
+        "Infection persistence and antimicrobial strategy",
+        "Diagnostics, screening, and biomarkers",
+        "Nutrition, GI, and metabolic complications"
+      ],
+      "strategic_signals": [
+        "care_burden",
+        "diagnostic_shift",
+        "pediatric_focus",
+        "infection_risk",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "psychosocial",
+      "population": "mixed/unspecified",
+      "study_type": "registry",
+      "why_it_matters": "Highlights psychosocial, adherence, identity, or daily-life consequences that clinical endpoints can miss.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-186",
+      "primary_theme": "Physiotherapy, exercise, and airway clearance",
+      "secondary_themes": [
+        "Modulator-era optimization"
+      ],
+      "strategic_signals": [
+        "care_burden"
+      ],
+      "clinical_domain": "physiotherapy",
+      "population": "mixed/unspecified",
+      "study_type": "observational",
+      "why_it_matters": "Informs exercise, rehabilitation, airway clearance, or functional monitoring in modern CF care.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-298",
+      "primary_theme": "Diagnostics, screening, and biomarkers",
+      "secondary_themes": [
+        "Real-world outcomes and registries",
+        "Care burden, adherence, and psychosocial impact"
+      ],
+      "strategic_signals": [
+        "diagnostic_shift",
+        "pediatric_focus",
+        "practice_implication"
+      ],
+      "clinical_domain": "diagnostics",
+      "population": "pediatric",
+      "study_type": "observational",
+      "why_it_matters": "Shows how screening, biomarkers, imaging, or functional tests can sharpen diagnosis and monitoring.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-111",
+      "primary_theme": "Precision CFTR biology and rare variants",
+      "secondary_themes": [],
+      "strategic_signals": [
+        "practice_implication"
+      ],
+      "clinical_domain": "CFTR biology",
+      "population": "mixed/unspecified",
+      "study_type": "translational/preclinical",
+      "why_it_matters": "Improves interpretation of CFTR mechanisms, rare variants, or functional response needed for precision treatment.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-247",
+      "primary_theme": "Modulator-era optimization",
+      "secondary_themes": [],
+      "strategic_signals": [
+        "pediatric_focus"
+      ],
+      "clinical_domain": "modulators",
+      "population": "pediatric",
+      "study_type": "observational",
+      "why_it_matters": "Helps define how CFTR modulator care should be optimized across benefits, safety, monitoring, or treatment burden.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-317",
+      "primary_theme": "Service delivery, access, and multidisciplinary care",
+      "secondary_themes": [
+        "Diagnostics, screening, and biomarkers",
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "access_equity",
+        "care_burden",
+        "practice_implication"
+      ],
+      "clinical_domain": "service delivery",
+      "population": "adult",
+      "study_type": "case/programme",
+      "why_it_matters": "Clarifies how CF services, pathways, or access models may need to adapt for patients and families.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-188",
+      "primary_theme": "Physiotherapy, exercise, and airway clearance",
+      "secondary_themes": [
+        "Modulator-era optimization",
+        "Precision CFTR biology and rare variants"
+      ],
+      "strategic_signals": [
+        "pediatric_focus",
+        "practice_implication"
+      ],
+      "clinical_domain": "physiotherapy",
+      "population": "pediatric",
+      "study_type": "observational",
+      "why_it_matters": "Informs exercise, rehabilitation, airway clearance, or functional monitoring in modern CF care.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-293",
+      "primary_theme": "Diagnostics, screening, and biomarkers",
+      "secondary_themes": [
+        "Nutrition, GI, and metabolic complications",
+        "Care burden, adherence, and psychosocial impact",
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "diagnostic_shift",
+        "pediatric_focus",
+        "practice_implication"
+      ],
+      "clinical_domain": "diagnostics",
+      "population": "pediatric",
+      "study_type": "observational",
+      "why_it_matters": "Shows how screening, biomarkers, imaging, or functional tests can sharpen diagnosis and monitoring.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-109",
+      "primary_theme": "Precision CFTR biology and rare variants",
+      "secondary_themes": [
+        "Emerging genetic, RNA, and cell-model therapies",
+        "Infection persistence and antimicrobial strategy"
+      ],
+      "strategic_signals": [
+        "emerging_modality",
+        "diagnostic_shift",
+        "infection_risk"
+      ],
+      "clinical_domain": "CFTR biology",
+      "population": "mixed/unspecified",
+      "study_type": "translational/preclinical",
+      "why_it_matters": "Improves interpretation of CFTR mechanisms, rare variants, or functional response needed for precision treatment.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-248",
+      "primary_theme": "Modulator-era optimization",
+      "secondary_themes": [
+        "Precision CFTR biology and rare variants"
+      ],
+      "strategic_signals": [
+        "practice_implication"
+      ],
+      "clinical_domain": "modulators",
+      "population": "mixed/unspecified",
+      "study_type": "translational/preclinical",
+      "why_it_matters": "Helps define how CFTR modulator care should be optimized across benefits, safety, monitoring, or treatment burden.",
+      "confidence": "medium",
+      "confidence_reason": "Unstructured or truncated abstract text gives the topic but limits detail."
+    },
+    {
+      "uid": "presentation-316",
+      "primary_theme": "Care burden, adherence, and psychosocial impact",
+      "secondary_themes": [
+        "Real-world outcomes and registries",
+        "Service delivery, access, and multidisciplinary care"
+      ],
+      "strategic_signals": [
+        "pediatric_focus",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "psychosocial",
+      "population": "pediatric",
+      "study_type": "qualitative/survey",
+      "why_it_matters": "Highlights psychosocial, adherence, identity, or daily-life consequences that clinical endpoints can miss.",
+      "confidence": "medium",
+      "confidence_reason": "Unstructured or truncated abstract text gives the topic but limits detail."
+    },
+    {
+      "uid": "presentation-185",
+      "primary_theme": "Care burden, adherence, and psychosocial impact",
+      "secondary_themes": [
+        "Modulator-era optimization",
+        "Physiotherapy, exercise, and airway clearance"
+      ],
+      "strategic_signals": [
+        "care_burden",
+        "practice_implication"
+      ],
+      "clinical_domain": "psychosocial",
+      "population": "adult",
+      "study_type": "observational",
+      "why_it_matters": "Highlights psychosocial, adherence, identity, or daily-life consequences that clinical endpoints can miss.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract sections provide enough detail for the classification."
+    },
+    {
+      "uid": "presentation-294",
+      "primary_theme": "Nutrition, GI, and metabolic complications",
+      "secondary_themes": [
+        "Modulator-era optimization",
+        "Diagnostics, screening, and biomarkers"
+      ],
+      "strategic_signals": [
+        "diagnostic_shift",
+        "practice_implication"
+      ],
+      "clinical_domain": "nutrition/GI",
+      "population": "mixed/unspecified",
+      "study_type": "observational",
+      "why_it_matters": "Updates GI, liver, metabolic, or body-composition management as CF outcomes and risks change.",
+      "confidence": "medium",
+      "confidence_reason": "Unstructured or truncated abstract text gives the topic but limits detail."
+    },
+    {
+      "uid": "presentation-873",
+      "primary_theme": "Care burden, adherence, and psychosocial impact",
+      "secondary_themes": [
+        "Service delivery, access, and multidisciplinary care"
+      ],
+      "strategic_signals": [],
+      "clinical_domain": "psychosocial",
+      "population": "mixed/unspecified",
+      "study_type": "qualitative/survey",
+      "why_it_matters": "Highlights psychosocial, adherence, identity, or daily-life consequences that clinical endpoints can miss.",
+      "confidence": "low",
+      "confidence_reason": "No abstract evidence was available; classification uses title and session metadata."
+    },
+    {
+      "uid": "presentation-891",
+      "primary_theme": "Diagnostics, screening, and biomarkers",
+      "secondary_themes": [
+        "Care burden, adherence, and psychosocial impact"
+      ],
+      "strategic_signals": [
+        "practice_implication",
+        "diagnostic_shift"
+      ],
+      "clinical_domain": "diagnostics",
+      "population": "mixed/unspecified",
+      "study_type": "case/programme",
+      "why_it_matters": "Shows how screening, biomarkers, imaging, or functional tests can sharpen diagnosis and monitoring.",
+      "confidence": "low",
+      "confidence_reason": "No abstract evidence was available; classification uses title and session metadata."
+    },
+    {
+      "uid": "presentation-9",
+      "primary_theme": "Service delivery, access, and multidisciplinary care",
+      "secondary_themes": [],
+      "strategic_signals": [
+        "pediatric_focus"
+      ],
+      "clinical_domain": "service delivery",
+      "population": "pediatric",
+      "study_type": "case/programme",
+      "why_it_matters": "Clarifies how CF services, pathways, or access models may need to adapt for patients and families.",
+      "confidence": "low",
+      "confidence_reason": "No abstract evidence was available; classification uses title and session metadata."
+    },
+    {
+      "uid": "presentation-37",
+      "primary_theme": "Service delivery, access, and multidisciplinary care",
+      "secondary_themes": [
+        "Care burden, adherence, and psychosocial impact"
+      ],
+      "strategic_signals": [
+        "practice_implication",
+        "access_equity"
+      ],
+      "clinical_domain": "service delivery",
+      "population": "mixed/unspecified",
+      "study_type": "case/programme",
+      "why_it_matters": "Clarifies how CF services, pathways, or access models may need to adapt for patients and families.",
+      "confidence": "low",
+      "confidence_reason": "No abstract evidence was available; classification uses title and session metadata."
+    },
+    {
+      "uid": "presentation-101",
+      "primary_theme": "Nutrition, GI, and metabolic complications",
+      "secondary_themes": [
+        "Service delivery, access, and multidisciplinary care"
+      ],
+      "strategic_signals": [],
+      "clinical_domain": "nutrition/GI",
+      "population": "older adult",
+      "study_type": "case/programme",
+      "why_it_matters": "Updates GI, liver, metabolic, or body-composition management as CF outcomes and risks change.",
+      "confidence": "low",
+      "confidence_reason": "No abstract evidence was available; classification uses title and session metadata."
+    },
+    {
+      "uid": "presentation-69",
+      "primary_theme": "Emerging genetic, RNA, and cell-model therapies",
+      "secondary_themes": [],
+      "strategic_signals": [
+        "emerging_modality"
+      ],
+      "clinical_domain": "gene/RNA therapy",
+      "population": "mixed/unspecified",
+      "study_type": "translational/preclinical",
+      "why_it_matters": "Signals approaches that could extend disease-modifying treatment to people not served by current modulators.",
+      "confidence": "low",
+      "confidence_reason": "No abstract evidence was available; classification uses title and session metadata."
+    },
+    {
+      "uid": "presentation-89",
+      "primary_theme": "Real-world outcomes and registries",
+      "secondary_themes": [],
+      "strategic_signals": [
+        "practice_implication",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "epidemiology",
+      "population": "mixed/unspecified",
+      "study_type": "case/programme",
+      "why_it_matters": "Adds real-world evidence for tracking outcomes, safety, access, and service changes beyond controlled trials.",
+      "confidence": "low",
+      "confidence_reason": "No abstract evidence was available; classification uses title and session metadata."
+    },
+    {
+      "uid": "presentation-98",
+      "primary_theme": "Physiotherapy, exercise, and airway clearance",
+      "secondary_themes": [
+        "Service delivery, access, and multidisciplinary care"
+      ],
+      "strategic_signals": [],
+      "clinical_domain": "physiotherapy",
+      "population": "older adult",
+      "study_type": "case/programme",
+      "why_it_matters": "Informs exercise, rehabilitation, airway clearance, or functional monitoring in modern CF care.",
+      "confidence": "low",
+      "confidence_reason": "No abstract evidence was available; classification uses title and session metadata."
+    },
+    {
+      "uid": "presentation-10",
+      "primary_theme": "Service delivery, access, and multidisciplinary care",
+      "secondary_themes": [],
+      "strategic_signals": [],
+      "clinical_domain": "service delivery",
+      "population": "adult",
+      "study_type": "case/programme",
+      "why_it_matters": "Clarifies how CF services, pathways, or access models may need to adapt for patients and families.",
+      "confidence": "low",
+      "confidence_reason": "No abstract evidence was available; classification uses title and session metadata."
+    },
+    {
+      "uid": "presentation-38",
+      "primary_theme": "Service delivery, access, and multidisciplinary care",
+      "secondary_themes": [
+        "Care burden, adherence, and psychosocial impact"
+      ],
+      "strategic_signals": [],
+      "clinical_domain": "service delivery",
+      "population": "pediatric",
+      "study_type": "case/programme",
+      "why_it_matters": "Clarifies how CF services, pathways, or access models may need to adapt for patients and families.",
+      "confidence": "low",
+      "confidence_reason": "No abstract evidence was available; classification uses title and session metadata."
+    },
+    {
+      "uid": "presentation-70",
+      "primary_theme": "Emerging genetic, RNA, and cell-model therapies",
+      "secondary_themes": [
+        "Precision CFTR biology and rare variants"
+      ],
+      "strategic_signals": [
+        "emerging_modality"
+      ],
+      "clinical_domain": "gene/RNA therapy",
+      "population": "mixed/unspecified",
+      "study_type": "case/programme",
+      "why_it_matters": "Signals approaches that could extend disease-modifying treatment to people not served by current modulators.",
+      "confidence": "low",
+      "confidence_reason": "No abstract evidence was available; classification uses title and session metadata."
+    },
+    {
+      "uid": "presentation-90",
+      "primary_theme": "Real-world outcomes and registries",
+      "secondary_themes": [],
+      "strategic_signals": [
+        "practice_implication",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "epidemiology",
+      "population": "mixed/unspecified",
+      "study_type": "case/programme",
+      "why_it_matters": "Adds real-world evidence for tracking outcomes, safety, access, and service changes beyond controlled trials.",
+      "confidence": "low",
+      "confidence_reason": "No abstract evidence was available; classification uses title and session metadata."
+    },
+    {
+      "uid": "presentation-99",
+      "primary_theme": "Physiotherapy, exercise, and airway clearance",
+      "secondary_themes": [
+        "Infection persistence and antimicrobial strategy",
+        "Care burden, adherence, and psychosocial impact",
+        "Service delivery, access, and multidisciplinary care"
+      ],
+      "strategic_signals": [
+        "care_burden",
+        "infection_risk"
+      ],
+      "clinical_domain": "physiotherapy",
+      "population": "older adult",
+      "study_type": "case/programme",
+      "why_it_matters": "Informs exercise, rehabilitation, airway clearance, or functional monitoring in modern CF care.",
+      "confidence": "low",
+      "confidence_reason": "No abstract evidence was available; classification uses title and session metadata."
+    },
+    {
+      "uid": "presentation-11",
+      "primary_theme": "Real-world outcomes and registries",
+      "secondary_themes": [],
+      "strategic_signals": [],
+      "clinical_domain": "epidemiology",
+      "population": "mixed/unspecified",
+      "study_type": "case/programme",
+      "why_it_matters": "Adds real-world evidence for tracking outcomes, safety, access, and service changes beyond controlled trials.",
+      "confidence": "low",
+      "confidence_reason": "No abstract evidence was available; classification uses title and session metadata."
+    },
+    {
+      "uid": "presentation-39",
+      "primary_theme": "Care burden, adherence, and psychosocial impact",
+      "secondary_themes": [
+        "Service delivery, access, and multidisciplinary care"
+      ],
+      "strategic_signals": [],
+      "clinical_domain": "psychosocial",
+      "population": "pregnancy/fertility",
+      "study_type": "case/programme",
+      "why_it_matters": "Highlights psychosocial, adherence, identity, or daily-life consequences that clinical endpoints can miss.",
+      "confidence": "low",
+      "confidence_reason": "No abstract evidence was available; classification uses title and session metadata."
+    },
+    {
+      "uid": "presentation-71",
+      "primary_theme": "Emerging genetic, RNA, and cell-model therapies",
+      "secondary_themes": [],
+      "strategic_signals": [
+        "emerging_modality"
+      ],
+      "clinical_domain": "gene/RNA therapy",
+      "population": "mixed/unspecified",
+      "study_type": "translational/preclinical",
+      "why_it_matters": "Signals approaches that could extend disease-modifying treatment to people not served by current modulators.",
+      "confidence": "low",
+      "confidence_reason": "No abstract evidence was available; classification uses title and session metadata."
+    },
+    {
+      "uid": "presentation-91",
+      "primary_theme": "Service delivery, access, and multidisciplinary care",
+      "secondary_themes": [],
+      "strategic_signals": [
+        "access_equity",
+        "practice_implication"
+      ],
+      "clinical_domain": "service delivery",
+      "population": "mixed/unspecified",
+      "study_type": "case/programme",
+      "why_it_matters": "Clarifies how CF services, pathways, or access models may need to adapt for patients and families.",
+      "confidence": "low",
+      "confidence_reason": "No abstract evidence was available; classification uses title and session metadata."
+    },
+    {
+      "uid": "presentation-100",
+      "primary_theme": "Physiotherapy, exercise, and airway clearance",
+      "secondary_themes": [
+        "Service delivery, access, and multidisciplinary care"
+      ],
+      "strategic_signals": [],
+      "clinical_domain": "physiotherapy",
+      "population": "older adult",
+      "study_type": "case/programme",
+      "why_it_matters": "Informs exercise, rehabilitation, airway clearance, or functional monitoring in modern CF care.",
+      "confidence": "low",
+      "confidence_reason": "No abstract evidence was available; classification uses title and session metadata."
+    },
+    {
+      "uid": "presentation-12",
+      "primary_theme": "Service delivery, access, and multidisciplinary care",
+      "secondary_themes": [],
+      "strategic_signals": [
+        "access_equity",
+        "practice_implication"
+      ],
+      "clinical_domain": "service delivery",
+      "population": "mixed/unspecified",
+      "study_type": "case/programme",
+      "why_it_matters": "Clarifies how CF services, pathways, or access models may need to adapt for patients and families.",
+      "confidence": "low",
+      "confidence_reason": "No abstract evidence was available; classification uses title and session metadata."
+    }
+  ]
+}

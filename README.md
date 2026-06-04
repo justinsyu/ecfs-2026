@@ -1,6 +1,6 @@
 # ECFS 2026 Conference Data Archive
 
-Static GitHub Pages interface for `ecfs_2026_conference_presentations.json`, with a plain-text Markdown export at `assets/data/ecfs_2026_conference_presentations.md` and an interactive intelligence dashboard at `intelligence.html`.
+Static GitHub Pages interface for `ecfs_2026_conference_presentations.json`, with a plain-text Markdown export at `assets/data/ecfs_2026_conference_presentations.md`, an interactive keyword dashboard at `intelligence.html`, and an offline synthesis dashboard at `llm-intelligence.html`.
 
 The site follows the same static archive pattern as `conference-data`, adapted for the ECFS Lisbon 2026 programme and color system.
 
@@ -16,4 +16,10 @@ Then open `http://localhost:8000/`.
 
 ```powershell
 python scripts/build_site_data.py
+```
+
+## Rebuild the synthesis dashboard data
+
+```powershell
+python scripts/build_llm_synthesis.py
 ```

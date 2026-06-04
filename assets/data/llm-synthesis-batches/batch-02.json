@@ -1,0 +1,1815 @@
+{
+  "batch": "02",
+  "start_index": 206,
+  "end_index": 308,
+  "records": [
+    {
+      "uid": "presentation-586",
+      "primary_theme": "Physiotherapy, exercise, and airway clearance",
+      "secondary_themes": [
+        "Service delivery, access, and multidisciplinary care"
+      ],
+      "strategic_signals": [
+        "care_burden",
+        "access_equity",
+        "practice_implication"
+      ],
+      "clinical_domain": "physiotherapy",
+      "population": "adult",
+      "study_type": "observational",
+      "why_it_matters": "Tele-yoga may offer a lower-exposure adjunct to conventional care, but the available abstract evidence is sparse.",
+      "confidence": "low",
+      "confidence_reason": "Pilot design is clear, but the accessible record gives limited outcome detail."
+    },
+    {
+      "uid": "presentation-401",
+      "primary_theme": "Diagnostics, screening, and biomarkers",
+      "secondary_themes": [
+        "Service delivery, access, and multidisciplinary care"
+      ],
+      "strategic_signals": [
+        "diagnostic_shift",
+        "pediatric_focus",
+        "practice_implication"
+      ],
+      "clinical_domain": "diagnostics",
+      "population": "pediatric",
+      "study_type": "observational",
+      "why_it_matters": "Clinic spirometry may underestimate lung function versus formal lab testing, affecting monitoring and treatment decisions.",
+      "confidence": "high",
+      "confidence_reason": "Structured abstract reports methods, sample size, comparative results, and conclusion."
+    },
+    {
+      "uid": "presentation-530",
+      "primary_theme": "Nutrition, GI, and metabolic complications",
+      "secondary_themes": [
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "practice_implication",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "nutrition/GI",
+      "population": "adult",
+      "study_type": "observational",
+      "why_it_matters": "Early real-world GLP1 experience suggests metabolic treatment choices could also affect respiratory outcomes in adults with CF.",
+      "confidence": "medium",
+      "confidence_reason": "Structured results are available, but the cohort is very small."
+    },
+    {
+      "uid": "presentation-468",
+      "primary_theme": "Real-world outcomes and registries",
+      "secondary_themes": [
+        "Infection persistence and antimicrobial strategy",
+        "Service delivery, access, and multidisciplinary care"
+      ],
+      "strategic_signals": [
+        "real_world_evidence",
+        "infection_risk",
+        "access_equity"
+      ],
+      "clinical_domain": "epidemiology",
+      "population": "adult",
+      "study_type": "registry",
+      "why_it_matters": "Registry risk stratification links exacerbations to clinical comorbidity and socioeconomic disadvantage.",
+      "confidence": "high",
+      "confidence_reason": "Large registry analysis with adjusted associations and clear findings."
+    },
+    {
+      "uid": "presentation-469",
+      "primary_theme": "Modulator-era optimization",
+      "secondary_themes": [
+        "Real-world outcomes and registries",
+        "Nutrition, GI, and metabolic complications"
+      ],
+      "strategic_signals": [
+        "pediatric_focus",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "modulators",
+      "population": "pediatric",
+      "study_type": "registry",
+      "why_it_matters": "Baseline data show substantial multisystem disease burden before ETI in very young children.",
+      "confidence": "high",
+      "confidence_reason": "Structured registry abstract provides cohort definition and detailed baseline characteristics."
+    },
+    {
+      "uid": "presentation-431",
+      "primary_theme": "Service delivery, access, and multidisciplinary care",
+      "secondary_themes": [
+        "Modulator-era optimization",
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "access_equity",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "modulators",
+      "population": "mixed/unspecified",
+      "study_type": "registry",
+      "why_it_matters": "ETI use appears equitable once eligible, but deprivation affects eligibility itself.",
+      "confidence": "high",
+      "confidence_reason": "Large longitudinal registry analysis reports eligibility, uptake, and adjusted deprivation effects."
+    },
+    {
+      "uid": "presentation-349",
+      "primary_theme": "Modulator-era optimization",
+      "secondary_themes": [
+        "Diagnostics, screening, and biomarkers",
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "pediatric_focus",
+        "diagnostic_shift",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "modulators",
+      "population": "pediatric",
+      "study_type": "observational",
+      "why_it_matters": "CT and lung-function measures give complementary evidence of pediatric structural response to different modulators.",
+      "confidence": "high",
+      "confidence_reason": "Structured retrospective cohort includes imaging, lung-function endpoints, and longitudinal modelling."
+    },
+    {
+      "uid": "presentation-552",
+      "primary_theme": "Diagnostics, screening, and biomarkers",
+      "secondary_themes": [
+        "Precision CFTR biology and rare variants",
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "diagnostic_shift",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "diagnostics",
+      "population": "mixed/unspecified",
+      "study_type": "registry",
+      "why_it_matters": "Standardizing free-text genotype entries improves registry quality and rare-variant interpretability.",
+      "confidence": "medium",
+      "confidence_reason": "Objective and approach are clear, but the extracted summary gives limited visible results."
+    },
+    {
+      "uid": "presentation-433",
+      "primary_theme": "Modulator-era optimization",
+      "secondary_themes": [
+        "Real-world outcomes and registries",
+        "Infection persistence and antimicrobial strategy",
+        "Nutrition, GI, and metabolic complications"
+      ],
+      "strategic_signals": [
+        "real_world_evidence",
+        "practice_implication"
+      ],
+      "clinical_domain": "modulators",
+      "population": "mixed/unspecified",
+      "study_type": "registry",
+      "why_it_matters": "National 24-month ETI data help quantify durability across lung, nutrition, infection, medication, and hospitalization outcomes.",
+      "confidence": "high",
+      "confidence_reason": "Large registry study with defined exposure window and multiple outcome domains."
+    },
+    {
+      "uid": "presentation-368",
+      "primary_theme": "Real-world outcomes and registries",
+      "secondary_themes": [
+        "Service delivery, access, and multidisciplinary care"
+      ],
+      "strategic_signals": [
+        "real_world_evidence",
+        "access_equity"
+      ],
+      "clinical_domain": "epidemiology",
+      "population": "mixed/unspecified",
+      "study_type": "registry",
+      "why_it_matters": "South African survival estimates provide needed prognosis data from an underrepresented setting.",
+      "confidence": "high",
+      "confidence_reason": "Registry-based survival analysis with mortality and transplant outcomes described."
+    },
+    {
+      "uid": "presentation-562",
+      "primary_theme": "Real-world outcomes and registries",
+      "secondary_themes": [
+        "Modulator-era optimization"
+      ],
+      "strategic_signals": [
+        "real_world_evidence"
+      ],
+      "clinical_domain": "epidemiology",
+      "population": "mixed/unspecified",
+      "study_type": "registry",
+      "why_it_matters": "Cross-country survival trends help separate long-term care improvements from modulator-era changes.",
+      "confidence": "high",
+      "confidence_reason": "Multi-country registry survival analysis with period stratification."
+    },
+    {
+      "uid": "presentation-567",
+      "primary_theme": "Care burden, adherence, and psychosocial impact",
+      "secondary_themes": [
+        "Modulator-era optimization",
+        "Infection persistence and antimicrobial strategy"
+      ],
+      "strategic_signals": [
+        "care_burden",
+        "real_world_evidence",
+        "practice_implication"
+      ],
+      "clinical_domain": "modulators",
+      "population": "adult",
+      "study_type": "observational",
+      "why_it_matters": "Reduced inhaled-therapy adherence after ETI has implications for de-escalation and infection prevention.",
+      "confidence": "high",
+      "confidence_reason": "Registry and prescription data support longitudinal adherence and clinical outcome analysis."
+    },
+    {
+      "uid": "presentation-434",
+      "primary_theme": "Modulator-era optimization",
+      "secondary_themes": [
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "real_world_evidence",
+        "practice_implication"
+      ],
+      "clinical_domain": "modulators",
+      "population": "mixed/unspecified",
+      "study_type": "registry",
+      "why_it_matters": "Comparing ETI and non-ETI registry cohorts supports assessment of real-world treatment effect.",
+      "confidence": "high",
+      "confidence_reason": "Structured registry comparison includes treated and untreated cohorts across repeated time points."
+    },
+    {
+      "uid": "presentation-539",
+      "primary_theme": "Precision CFTR biology and rare variants",
+      "secondary_themes": [
+        "Modulator-era optimization",
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "real_world_evidence",
+        "practice_implication"
+      ],
+      "clinical_domain": "CFTR biology",
+      "population": "mixed/unspecified",
+      "study_type": "registry",
+      "why_it_matters": "N1303K-focused outcomes address a severe rare variant where modulator access and response remain uncertain.",
+      "confidence": "medium",
+      "confidence_reason": "Design and population are clear, but visible result detail is limited in the extracted summary."
+    },
+    {
+      "uid": "presentation-572",
+      "primary_theme": "Diagnostics, screening, and biomarkers",
+      "secondary_themes": [
+        "Service delivery, access, and multidisciplinary care",
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "diagnostic_shift",
+        "access_equity",
+        "pediatric_focus"
+      ],
+      "clinical_domain": "epidemiology",
+      "population": "pediatric",
+      "study_type": "observational",
+      "why_it_matters": "Moroccan multicenter data highlight underdiagnosis barriers and the need for a national pediatric registry.",
+      "confidence": "medium",
+      "confidence_reason": "The abstract defines the system gap and registry objective, with limited visible outcomes."
+    },
+    {
+      "uid": "presentation-418",
+      "primary_theme": "Real-world outcomes and registries",
+      "secondary_themes": [
+        "Service delivery, access, and multidisciplinary care"
+      ],
+      "strategic_signals": [
+        "real_world_evidence",
+        "practice_implication"
+      ],
+      "clinical_domain": "epidemiology",
+      "population": "mixed/unspecified",
+      "study_type": "registry",
+      "why_it_matters": "On-site validation improves confidence in Turkish registry data used for research and benchmarking.",
+      "confidence": "medium",
+      "confidence_reason": "Data-quality objective is clear, but the visible abstract is mainly methodological."
+    },
+    {
+      "uid": "presentation-451",
+      "primary_theme": "Service delivery, access, and multidisciplinary care",
+      "secondary_themes": [
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "access_equity",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "epidemiology",
+      "population": "adult",
+      "study_type": "registry",
+      "why_it_matters": "Adult demographic and socioeconomic registry data can guide service planning in Argentina.",
+      "confidence": "medium",
+      "confidence_reason": "Cross-sectional registry design is clear, but only partial results were visible."
+    },
+    {
+      "uid": "presentation-502",
+      "primary_theme": "Real-world outcomes and registries",
+      "secondary_themes": [
+        "Service delivery, access, and multidisciplinary care"
+      ],
+      "strategic_signals": [
+        "access_equity",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "epidemiology",
+      "population": "adult",
+      "study_type": "registry",
+      "why_it_matters": "Kazakhstan adult CF characteristics document transition and follow-up needs in a newer registry context.",
+      "confidence": "medium",
+      "confidence_reason": "The record provides descriptive registry methods and partial cohort characteristics."
+    },
+    {
+      "uid": "presentation-576",
+      "primary_theme": "Modulator-era optimization",
+      "secondary_themes": [
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "pediatric_focus",
+        "real_world_evidence",
+        "practice_implication"
+      ],
+      "clinical_domain": "modulators",
+      "population": "pediatric",
+      "study_type": "observational",
+      "why_it_matters": "Latin American pediatric modulator outcomes add evidence from a population underrepresented in trials.",
+      "confidence": "medium",
+      "confidence_reason": "Design and endpoints are clear, but visible outcome detail is limited."
+    },
+    {
+      "uid": "presentation-544",
+      "primary_theme": "Modulator-era optimization",
+      "secondary_themes": [
+        "Diagnostics, screening, and biomarkers",
+        "Nutrition, GI, and metabolic complications"
+      ],
+      "strategic_signals": [
+        "pediatric_focus",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "modulators",
+      "population": "pediatric",
+      "study_type": "registry",
+      "why_it_matters": "Prospective pediatric registry follow-up can detect whether ETI benefits persist across lung, sweat, growth, and pancreatic markers.",
+      "confidence": "medium",
+      "confidence_reason": "Prospective design is clear, but the displayed record only partially shows results."
+    },
+    {
+      "uid": "presentation-584",
+      "primary_theme": "Infection persistence and antimicrobial strategy",
+      "secondary_themes": [
+        "Real-world outcomes and registries",
+        "Service delivery, access, and multidisciplinary care"
+      ],
+      "strategic_signals": [
+        "infection_risk",
+        "access_equity",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "infection",
+      "population": "mixed/unspecified",
+      "study_type": "observational",
+      "why_it_matters": "Moldovan respiratory infection data identify treatment burden and chronic infection patterns in a national cohort.",
+      "confidence": "medium",
+      "confidence_reason": "Cohort and aim are clear, but visible results are incomplete."
+    },
+    {
+      "uid": "presentation-542",
+      "primary_theme": "Modulator-era optimization",
+      "secondary_themes": [
+        "Physiotherapy, exercise, and airway clearance",
+        "Nutrition, GI, and metabolic complications"
+      ],
+      "strategic_signals": [
+        "real_world_evidence",
+        "practice_implication"
+      ],
+      "clinical_domain": "modulators",
+      "population": "mixed/unspecified",
+      "study_type": "observational",
+      "why_it_matters": "Five-year ETI follow-up addresses durability across lung function, exercise, nutrition, and quality of life.",
+      "confidence": "high",
+      "confidence_reason": "Long-term cohort and outcome domains are explicitly described."
+    },
+    {
+      "uid": "presentation-411",
+      "primary_theme": "Real-world outcomes and registries",
+      "secondary_themes": [
+        "Infection persistence and antimicrobial strategy",
+        "Diagnostics, screening, and biomarkers"
+      ],
+      "strategic_signals": [
+        "real_world_evidence"
+      ],
+      "clinical_domain": "epidemiology",
+      "population": "mixed/unspecified",
+      "study_type": "registry",
+      "why_it_matters": "National Russian registry characteristics provide benchmarking for diagnosis, genotype capture, infection, and treatment use.",
+      "confidence": "high",
+      "confidence_reason": "Large registry denominator and descriptive clinical variables are reported."
+    },
+    {
+      "uid": "presentation-523",
+      "primary_theme": "Modulator-era optimization",
+      "secondary_themes": [
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "real_world_evidence",
+        "practice_implication"
+      ],
+      "clinical_domain": "modulators",
+      "population": "transplant/advanced disease",
+      "study_type": "observational",
+      "why_it_matters": "Small severe-lung-disease experience informs expectations and adherence issues after ETI in advanced adult CF.",
+      "confidence": "medium",
+      "confidence_reason": "Relevant endpoints are listed, but evidence comes from only seven adults."
+    },
+    {
+      "uid": "presentation-454",
+      "primary_theme": "Real-world outcomes and registries",
+      "secondary_themes": [
+        "Infection persistence and antimicrobial strategy"
+      ],
+      "strategic_signals": [
+        "real_world_evidence",
+        "infection_risk",
+        "access_equity"
+      ],
+      "clinical_domain": "epidemiology",
+      "population": "mixed/unspecified",
+      "study_type": "registry",
+      "why_it_matters": "Mortality review can identify prognostic and system factors behind early deaths despite therapeutic advances.",
+      "confidence": "medium",
+      "confidence_reason": "Objective and retrospective design are clear, but visible outcome detail is limited."
+    },
+    {
+      "uid": "presentation-535",
+      "primary_theme": "Real-world outcomes and registries",
+      "secondary_themes": [
+        "Nutrition, GI, and metabolic complications",
+        "Modulator-era optimization"
+      ],
+      "strategic_signals": [
+        "real_world_evidence",
+        "access_equity"
+      ],
+      "clinical_domain": "epidemiology",
+      "population": "mixed/unspecified",
+      "study_type": "registry",
+      "why_it_matters": "Pre-ETI Ukrainian baselines create a comparator for future modulator impact and genotype-related disparities.",
+      "confidence": "medium",
+      "confidence_reason": "Registry cohort and pre-modulator aim are clear, with partial results visible."
+    },
+    {
+      "uid": "presentation-556",
+      "primary_theme": "Real-world outcomes and registries",
+      "secondary_themes": [
+        "Infection persistence and antimicrobial strategy"
+      ],
+      "strategic_signals": [
+        "pediatric_focus",
+        "infection_risk",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "epidemiology",
+      "population": "pediatric",
+      "study_type": "registry",
+      "why_it_matters": "Age-specific pollution effects on exacerbations could inform environmental risk counselling for children with CF.",
+      "confidence": "high",
+      "confidence_reason": "Large pediatric registry analysis with pollutant modelling and exacerbation endpoint."
+    },
+    {
+      "uid": "presentation-534",
+      "primary_theme": "Service delivery, access, and multidisciplinary care",
+      "secondary_themes": [
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "access_equity",
+        "real_world_evidence",
+        "practice_implication"
+      ],
+      "clinical_domain": "service delivery",
+      "population": "transplant/advanced disease",
+      "study_type": "registry",
+      "why_it_matters": "Regional transplant variation highlights potential inequities in access to donor lungs for advanced CF.",
+      "confidence": "high",
+      "confidence_reason": "UNOS registry design and competing-risk waitlist outcomes are clearly specified."
+    },
+    {
+      "uid": "presentation-363",
+      "primary_theme": "Care burden, adherence, and psychosocial impact",
+      "secondary_themes": [
+        "Service delivery, access, and multidisciplinary care"
+      ],
+      "strategic_signals": [
+        "care_burden",
+        "access_equity",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "psychosocial",
+      "population": "mixed/unspecified",
+      "study_type": "qualitative/survey",
+      "why_it_matters": "Longitudinal lived-experience surveys show financial, treatment, and mental-health burden persists despite modulator progress.",
+      "confidence": "high",
+      "confidence_reason": "Repeated annual survey design and core burden findings are reported."
+    },
+    {
+      "uid": "presentation-375",
+      "primary_theme": "Care burden, adherence, and psychosocial impact",
+      "secondary_themes": [
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "real_world_evidence",
+        "practice_implication"
+      ],
+      "clinical_domain": "psychosocial",
+      "population": "pregnancy/fertility",
+      "study_type": "observational",
+      "why_it_matters": "Parenthood does not appear to worsen exacerbation trajectories in the ETI era, informing reproductive counselling.",
+      "confidence": "high",
+      "confidence_reason": "Large linked survey-registry cohort with adjusted longitudinal models."
+    },
+    {
+      "uid": "presentation-526",
+      "primary_theme": "Service delivery, access, and multidisciplinary care",
+      "secondary_themes": [
+        "Modulator-era optimization",
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "practice_implication",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "service delivery",
+      "population": "pregnancy/fertility",
+      "study_type": "observational",
+      "why_it_matters": "Pregnancy outcomes in CF require specialist pathways as fertility rises and comorbidity remains common.",
+      "confidence": "high",
+      "confidence_reason": "Retrospective centre review reports pregnancies, complications, and outcomes."
+    },
+    {
+      "uid": "presentation-409",
+      "primary_theme": "Modulator-era optimization",
+      "secondary_themes": [
+        "Service delivery, access, and multidisciplinary care"
+      ],
+      "strategic_signals": [
+        "practice_implication",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "modulators",
+      "population": "pregnancy/fertility",
+      "study_type": "observational",
+      "why_it_matters": "Unplanned pregnancies on ETI and heterogeneous outcomes support routine reproductive counselling at ETI initiation.",
+      "confidence": "high",
+      "confidence_reason": "Structured single-centre review provides exposure, pregnancy frequency, outcomes, and practice response."
+    },
+    {
+      "uid": "presentation-350",
+      "primary_theme": "Modulator-era optimization",
+      "secondary_themes": [
+        "Care burden, adherence, and psychosocial impact",
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "practice_implication",
+        "care_burden",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "epidemiology",
+      "population": "mixed/unspecified",
+      "study_type": "observational",
+      "why_it_matters": "Target-trial emulation can inform whether inhaled corticosteroids can be stopped safely to reduce burden.",
+      "confidence": "medium",
+      "confidence_reason": "Methods are strong, but final effect estimates were not yet presented."
+    },
+    {
+      "uid": "presentation-503",
+      "primary_theme": "Modulator-era optimization",
+      "secondary_themes": [
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "real_world_evidence",
+        "practice_implication"
+      ],
+      "clinical_domain": "modulators",
+      "population": "mixed/unspecified",
+      "study_type": "registry",
+      "why_it_matters": "Dutch registry feasibility work clarifies what data quality is needed for credible real-world ETI effectiveness studies.",
+      "confidence": "high",
+      "confidence_reason": "Registry coverage, comparator limitations, and data-quality concerns are explicitly described."
+    },
+    {
+      "uid": "presentation-507",
+      "primary_theme": "Infection persistence and antimicrobial strategy",
+      "secondary_themes": [
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "infection_risk",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "infection",
+      "population": "mixed/unspecified",
+      "study_type": "registry",
+      "why_it_matters": "European Stenotrophomonas surveillance shows changing prevalence and links chronic infection to higher comorbidity burden.",
+      "confidence": "high",
+      "confidence_reason": "Large multinational registry analysis reports prevalence, trends, and associated clinical factors."
+    },
+    {
+      "uid": "presentation-463",
+      "primary_theme": "Infection persistence and antimicrobial strategy",
+      "secondary_themes": [
+        "Diagnostics, screening, and biomarkers",
+        "Service delivery, access, and multidisciplinary care"
+      ],
+      "strategic_signals": [
+        "infection_risk",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "infection",
+      "population": "mixed/unspecified",
+      "study_type": "case/programme",
+      "why_it_matters": "Automated isolate-data linkage can accelerate NTM research without disrupting clinical workflows.",
+      "confidence": "medium",
+      "confidence_reason": "Early implementation data are available, but collection had only recently started."
+    },
+    {
+      "uid": "presentation-398",
+      "primary_theme": "Modulator-era optimization",
+      "secondary_themes": [
+        "Infection persistence and antimicrobial strategy",
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "pediatric_focus",
+        "infection_risk",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "modulators",
+      "population": "pediatric",
+      "study_type": "registry",
+      "why_it_matters": "Canadian pediatric data suggest ETI substantially reduces Pseudomonas culture positivity.",
+      "confidence": "high",
+      "confidence_reason": "Structured paired registry analysis reports sample size, odds ratios, and risk differences."
+    },
+    {
+      "uid": "presentation-457",
+      "primary_theme": "Infection persistence and antimicrobial strategy",
+      "secondary_themes": [
+        "Service delivery, access, and multidisciplinary care"
+      ],
+      "strategic_signals": [
+        "infection_risk",
+        "practice_implication"
+      ],
+      "clinical_domain": "infection",
+      "population": "mixed/unspecified",
+      "study_type": "case/programme",
+      "why_it_matters": "Antimicrobial copper surfaces may reduce contamination on hospital touchpoints relevant to CF cross-infection control.",
+      "confidence": "medium",
+      "confidence_reason": "Hospital surface data are reported, but patient-level infection outcomes are not assessed."
+    },
+    {
+      "uid": "presentation-521",
+      "primary_theme": "Infection persistence and antimicrobial strategy",
+      "secondary_themes": [
+        "Service delivery, access, and multidisciplinary care",
+        "Care burden, adherence, and psychosocial impact"
+      ],
+      "strategic_signals": [
+        "infection_risk",
+        "practice_implication"
+      ],
+      "clinical_domain": "infection",
+      "population": "mixed/unspecified",
+      "study_type": "observational",
+      "why_it_matters": "Vaccination gaps and attitudes identify preventable infection-risk targets for CF quality improvement.",
+      "confidence": "high",
+      "confidence_reason": "Large centre review includes immunisation records and attitude measurement."
+    },
+    {
+      "uid": "presentation-406",
+      "primary_theme": "Physiotherapy, exercise, and airway clearance",
+      "secondary_themes": [
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "practice_implication",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "physiotherapy",
+      "population": "mixed/unspecified",
+      "study_type": "observational",
+      "why_it_matters": "Positive airway pressure may improve lung-function trajectory in selected CF patients with sleep breathing disorders.",
+      "confidence": "medium",
+      "confidence_reason": "Linked data support the finding, but subgroup sizes are modest and hospitalization effects were nonsignificant."
+    },
+    {
+      "uid": "presentation-529",
+      "primary_theme": "Diagnostics, screening, and biomarkers",
+      "secondary_themes": [
+        "Modulator-era optimization"
+      ],
+      "strategic_signals": [
+        "diagnostic_shift",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "diagnostics",
+      "population": "mixed/unspecified",
+      "study_type": "observational",
+      "why_it_matters": "Sweat chloride categories may not map neatly to ETI clinical benefit, limiting biomarker interpretation.",
+      "confidence": "high",
+      "confidence_reason": "Nationwide cohort with adjusted analyses across age strata and multiple outcomes."
+    },
+    {
+      "uid": "presentation-506",
+      "primary_theme": "Nutrition, GI, and metabolic complications",
+      "secondary_themes": [
+        "Infection persistence and antimicrobial strategy",
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "infection_risk",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "nutrition/GI",
+      "population": "mixed/unspecified",
+      "study_type": "registry",
+      "why_it_matters": "Widespread PPI use may mark or contribute to infection and lung-function differences, warranting treatment review.",
+      "confidence": "high",
+      "confidence_reason": "Large European registry analysis reports exposure groups and adjusted outcome patterns."
+    },
+    {
+      "uid": "presentation-495",
+      "primary_theme": "Nutrition, GI, and metabolic complications",
+      "secondary_themes": [
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "real_world_evidence",
+        "practice_implication"
+      ],
+      "clinical_domain": "nutrition/GI",
+      "population": "adult",
+      "study_type": "observational",
+      "why_it_matters": "Ageing with CF brings cardiovascular risk into routine adult CF management.",
+      "confidence": "medium",
+      "confidence_reason": "Retrospective cohort objective is clear, but visible results are incomplete."
+    },
+    {
+      "uid": "presentation-407",
+      "primary_theme": "Nutrition, GI, and metabolic complications",
+      "secondary_themes": [
+        "Precision CFTR biology and rare variants",
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "real_world_evidence",
+        "practice_implication"
+      ],
+      "clinical_domain": "nutrition/GI",
+      "population": "adult",
+      "study_type": "translational/preclinical",
+      "why_it_matters": "Linking colonoscopy findings to polyp molecular features may clarify why CRC risk is elevated in CF.",
+      "confidence": "medium",
+      "confidence_reason": "Rationale and translational approach are clear, but detailed results are not visible."
+    },
+    {
+      "uid": "presentation-513",
+      "primary_theme": "Real-world outcomes and registries",
+      "secondary_themes": [
+        "Care burden, adherence, and psychosocial impact"
+      ],
+      "strategic_signals": [
+        "real_world_evidence",
+        "practice_implication"
+      ],
+      "clinical_domain": "epidemiology",
+      "population": "adult",
+      "study_type": "observational",
+      "why_it_matters": "Audiology screening may need updating as adults live longer with cumulative ototoxic exposures.",
+      "confidence": "medium",
+      "confidence_reason": "Preliminary cohort size and methods are clear, with partial early results."
+    },
+    {
+      "uid": "presentation-397",
+      "primary_theme": "Nutrition, GI, and metabolic complications",
+      "secondary_themes": [
+        "Care burden, adherence, and psychosocial impact"
+      ],
+      "strategic_signals": [
+        "real_world_evidence"
+      ],
+      "clinical_domain": "nutrition/GI",
+      "population": "pregnancy/fertility",
+      "study_type": "observational",
+      "why_it_matters": "BMI trajectories around parenthood inform nutritional support for adults balancing CF and caregiving.",
+      "confidence": "medium",
+      "confidence_reason": "Linked cohort design is clear, but visible results are incomplete."
+    },
+    {
+      "uid": "presentation-515",
+      "primary_theme": "Diagnostics, screening, and biomarkers",
+      "secondary_themes": [
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "diagnostic_shift",
+        "pediatric_focus",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "diagnostics",
+      "population": "pediatric",
+      "study_type": "registry",
+      "why_it_matters": "Newborn screening outcome comparisons quantify the clinical value of early diagnosis across Europe.",
+      "confidence": "high",
+      "confidence_reason": "Large ECFSPR analysis with birth cohorts and defined pediatric outcomes."
+    },
+    {
+      "uid": "presentation-440",
+      "primary_theme": "Diagnostics, screening, and biomarkers",
+      "secondary_themes": [
+        "Service delivery, access, and multidisciplinary care"
+      ],
+      "strategic_signals": [
+        "diagnostic_shift",
+        "pediatric_focus",
+        "practice_implication"
+      ],
+      "clinical_domain": "diagnostics",
+      "population": "pediatric",
+      "study_type": "observational",
+      "why_it_matters": "CFSPID pathway review supports consistent follow-up for infants with inconclusive newborn screening results.",
+      "confidence": "medium",
+      "confidence_reason": "Network evaluation objective is clear, but visible outcome detail is partial."
+    },
+    {
+      "uid": "presentation-565",
+      "primary_theme": "Diagnostics, screening, and biomarkers",
+      "secondary_themes": [
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "diagnostic_shift",
+        "pediatric_focus",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "epidemiology",
+      "population": "pediatric",
+      "study_type": "registry",
+      "why_it_matters": "Long-running Brittany newborn screening data can detect temporal and geographic shifts in CF incidence.",
+      "confidence": "high",
+      "confidence_reason": "Thirty-five-year screened cohort and incidence modelling are described."
+    },
+    {
+      "uid": "presentation-505",
+      "primary_theme": "Service delivery, access, and multidisciplinary care",
+      "secondary_themes": [
+        "Care burden, adherence, and psychosocial impact",
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "practice_implication",
+        "access_equity",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "service delivery",
+      "population": "mixed/unspecified",
+      "study_type": "qualitative/survey",
+      "why_it_matters": "Benchmarking centre structures with PREMs can align Dutch guidelines with patient experience in the modulator era.",
+      "confidence": "high",
+      "confidence_reason": "National centre survey and parallel patient-experience methods are specified."
+    },
+    {
+      "uid": "presentation-573",
+      "primary_theme": "Service delivery, access, and multidisciplinary care",
+      "secondary_themes": [
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "access_equity",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "service delivery",
+      "population": "mixed/unspecified",
+      "study_type": "case/programme",
+      "why_it_matters": "A low-cost REDCap registry model can broaden CF data capture in low- and middle-income countries.",
+      "confidence": "medium",
+      "confidence_reason": "Implementation details and scale are given, but outcomes are mainly programmatic."
+    },
+    {
+      "uid": "presentation-532",
+      "primary_theme": "Care burden, adherence, and psychosocial impact",
+      "secondary_themes": [
+        "Service delivery, access, and multidisciplinary care"
+      ],
+      "strategic_signals": [
+        "care_burden",
+        "practice_implication"
+      ],
+      "clinical_domain": "psychosocial",
+      "population": "mixed/unspecified",
+      "study_type": "qualitative/survey",
+      "why_it_matters": "Provider burnout measurement identifies workforce risks that can affect multidisciplinary CF care.",
+      "confidence": "high",
+      "confidence_reason": "National survey reports sample size, provider mix, and validated burnout instruments."
+    },
+    {
+      "uid": "presentation-467",
+      "primary_theme": "Service delivery, access, and multidisciplinary care",
+      "secondary_themes": [
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "practice_implication",
+        "access_equity"
+      ],
+      "clinical_domain": "service delivery",
+      "population": "mixed/unspecified",
+      "study_type": "case/programme",
+      "why_it_matters": "A pragmatic peer-review model may support quality improvement when service resources are constrained.",
+      "confidence": "medium",
+      "confidence_reason": "Co-design process is clear, but implementation outcomes are not fully visible."
+    },
+    {
+      "uid": "presentation-430",
+      "primary_theme": "Service delivery, access, and multidisciplinary care",
+      "secondary_themes": [
+        "Modulator-era optimization"
+      ],
+      "strategic_signals": [
+        "practice_implication"
+      ],
+      "clinical_domain": "service delivery",
+      "population": "mixed/unspecified",
+      "study_type": "case/programme",
+      "why_it_matters": "Canadian consensus guideline development embeds multidisciplinary roles for care across the lifespan.",
+      "confidence": "medium",
+      "confidence_reason": "Process and rationale are clear, but the abstract is primarily descriptive."
+    },
+    {
+      "uid": "presentation-574",
+      "primary_theme": "Nutrition, GI, and metabolic complications",
+      "secondary_themes": [
+        "Modulator-era optimization",
+        "Diagnostics, screening, and biomarkers"
+      ],
+      "strategic_signals": [
+        "real_world_evidence",
+        "practice_implication"
+      ],
+      "clinical_domain": "nutrition/GI",
+      "population": "mixed/unspecified",
+      "study_type": "observational",
+      "why_it_matters": "Pancreatic imaging trajectories suggest ETI may alter, but not fully stop, structural pancreatic progression.",
+      "confidence": "medium",
+      "confidence_reason": "Structured pancreatic imaging abstract is clear, but the title conflicts with the abstract topic."
+    },
+    {
+      "uid": "presentation-444",
+      "primary_theme": "Service delivery, access, and multidisciplinary care",
+      "secondary_themes": [
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "practice_implication",
+        "access_equity"
+      ],
+      "clinical_domain": "service delivery",
+      "population": "mixed/unspecified",
+      "study_type": "case/programme",
+      "why_it_matters": "A national QI model can improve guideline uptake and reveal centre-level care gaps.",
+      "confidence": "medium",
+      "confidence_reason": "Framework and anticipated indicators are described, but clinician interviews are prospective."
+    },
+    {
+      "uid": "presentation-516",
+      "primary_theme": "Service delivery, access, and multidisciplinary care",
+      "secondary_themes": [
+        "Diagnostics, screening, and biomarkers",
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "access_equity",
+        "pediatric_focus",
+        "practice_implication"
+      ],
+      "clinical_domain": "service delivery",
+      "population": "pediatric",
+      "study_type": "case/programme",
+      "why_it_matters": "Paediatricians may be essential to maintaining CF care where specialized centres are absent.",
+      "confidence": "medium",
+      "confidence_reason": "Small pediatric programme context is clear, but evidence is limited."
+    },
+    {
+      "uid": "presentation-466",
+      "primary_theme": "Service delivery, access, and multidisciplinary care",
+      "secondary_themes": [
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "real_world_evidence",
+        "practice_implication"
+      ],
+      "clinical_domain": "service delivery",
+      "population": "mixed/unspecified",
+      "study_type": "case/programme",
+      "why_it_matters": "A data core can make learning-network improvement work faster and more transparent.",
+      "confidence": "medium",
+      "confidence_reason": "Programme goals and data-support role are clear, but outcomes are process-oriented."
+    },
+    {
+      "uid": "presentation-393",
+      "primary_theme": "Service delivery, access, and multidisciplinary care",
+      "secondary_themes": [
+        "Diagnostics, screening, and biomarkers"
+      ],
+      "strategic_signals": [
+        "practice_implication"
+      ],
+      "clinical_domain": "service delivery",
+      "population": "mixed/unspecified",
+      "study_type": "qualitative/survey",
+      "why_it_matters": "A core outcome set can reduce heterogeneity across CF trials and improve evidence synthesis.",
+      "confidence": "high",
+      "confidence_reason": "Registered eDelphi process, stakeholder groups, and interim consensus results are reported."
+    },
+    {
+      "uid": "presentation-419",
+      "primary_theme": "Physiotherapy, exercise, and airway clearance",
+      "secondary_themes": [
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "practice_implication",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "physiotherapy",
+      "population": "mixed/unspecified",
+      "study_type": "qualitative/survey",
+      "why_it_matters": "Adding physiotherapy outcomes to registries would better capture functional health in modern CF care.",
+      "confidence": "high",
+      "confidence_reason": "International physiotherapist survey reports sample size and convergence in outcome use."
+    },
+    {
+      "uid": "presentation-568",
+      "primary_theme": "Diagnostics, screening, and biomarkers",
+      "secondary_themes": [
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "diagnostic_shift",
+        "pediatric_focus",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "diagnostics",
+      "population": "pediatric",
+      "study_type": "registry",
+      "why_it_matters": "Irish newborn-screening comparisons clarify hospitalization risk in early childhood CF.",
+      "confidence": "high",
+      "confidence_reason": "National cohort with registry and chart-linked hospitalization data is described."
+    },
+    {
+      "uid": "presentation-533",
+      "primary_theme": "Care burden, adherence, and psychosocial impact",
+      "secondary_themes": [
+        "Modulator-era optimization",
+        "Diagnostics, screening, and biomarkers"
+      ],
+      "strategic_signals": [
+        "care_burden",
+        "practice_implication"
+      ],
+      "clinical_domain": "psychosocial",
+      "population": "mixed/unspecified",
+      "study_type": "qualitative/survey",
+      "why_it_matters": "Updating CFQ-R for modulator-era experience may keep quality-of-life measurement clinically meaningful.",
+      "confidence": "high",
+      "confidence_reason": "Multi-phase qualitative and psychometric plan is clearly specified."
+    },
+    {
+      "uid": "presentation-545",
+      "primary_theme": "Care burden, adherence, and psychosocial impact",
+      "secondary_themes": [
+        "Real-world outcomes and registries",
+        "Service delivery, access, and multidisciplinary care"
+      ],
+      "strategic_signals": [
+        "care_burden",
+        "real_world_evidence",
+        "practice_implication"
+      ],
+      "clinical_domain": "psychosocial",
+      "population": "mixed/unspecified",
+      "study_type": "qualitative/survey",
+      "why_it_matters": "PROM registry integration could make longitudinal patient burden visible in routine CF data.",
+      "confidence": "high",
+      "confidence_reason": "Survey and international registry review methods are explicit."
+    },
+    {
+      "uid": "presentation-477",
+      "primary_theme": "Service delivery, access, and multidisciplinary care",
+      "secondary_themes": [
+        "Real-world outcomes and registries"
+      ],
+      "strategic_signals": [
+        "access_equity",
+        "practice_implication"
+      ],
+      "clinical_domain": "service delivery",
+      "population": "mixed/unspecified",
+      "study_type": "case/programme",
+      "why_it_matters": "Twinning partnerships can transfer practical CF expertise and support centre development.",
+      "confidence": "medium",
+      "confidence_reason": "SWOT-based early programme evaluation is useful but not outcome-heavy."
+    },
+    {
+      "uid": "presentation-481",
+      "primary_theme": "Service delivery, access, and multidisciplinary care",
+      "secondary_themes": [
+        "Physiotherapy, exercise, and airway clearance"
+      ],
+      "strategic_signals": [
+        "access_equity",
+        "practice_implication"
+      ],
+      "clinical_domain": "service delivery",
+      "population": "mixed/unspecified",
+      "study_type": "case/programme",
+      "why_it_matters": "Twinning experience identifies language, staffing, and physiotherapy-practice barriers to equitable CF care.",
+      "confidence": "medium",
+      "confidence_reason": "Programme history and qualitative outcomes are described, but evidence is descriptive."
+    },
+    {
+      "uid": "presentation-432",
+      "primary_theme": "Service delivery, access, and multidisciplinary care",
+      "secondary_themes": [
+        "Care burden, adherence, and psychosocial impact"
+      ],
+      "strategic_signals": [
+        "access_equity",
+        "care_burden",
+        "practice_implication"
+      ],
+      "clinical_domain": "service delivery",
+      "population": "mixed/unspecified",
+      "study_type": "qualitative/survey",
+      "why_it_matters": "Digital health literacy support is needed so telehealth and online tools do not widen capability gaps.",
+      "confidence": "high",
+      "confidence_reason": "PPI-led survey reports respondents, knowledge gaps, and preferred formats."
+    },
+    {
+      "uid": "presentation-453",
+      "primary_theme": "Service delivery, access, and multidisciplinary care",
+      "secondary_themes": [
+        "Diagnostics, screening, and biomarkers"
+      ],
+      "strategic_signals": [
+        "access_equity",
+        "care_burden",
+        "practice_implication"
+      ],
+      "clinical_domain": "service delivery",
+      "population": "adult",
+      "study_type": "observational",
+      "why_it_matters": "Remote monitoring showed feasibility, satisfaction, reliable home spirometry, and stable lung function.",
+      "confidence": "high",
+      "confidence_reason": "One-year digital follow-up reports adherence, satisfaction, spirometry agreement, and clinical stability."
+    },
+    {
+      "uid": "presentation-455",
+      "primary_theme": "Service delivery, access, and multidisciplinary care",
+      "secondary_themes": [
+        "Care burden, adherence, and psychosocial impact"
+      ],
+      "strategic_signals": [
+        "access_equity",
+        "care_burden"
+      ],
+      "clinical_domain": "service delivery",
+      "population": "mixed/unspecified",
+      "study_type": "qualitative/survey",
+      "why_it_matters": "Respiratory digital-health adoption varies, so implementation needs attention to barriers and inequalities.",
+      "confidence": "medium",
+      "confidence_reason": "Survey was ongoing and only preliminary participation data were available."
+    },
+    {
+      "uid": "presentation-473",
+      "primary_theme": "Care burden, adherence, and psychosocial impact",
+      "secondary_themes": [
+        "Service delivery, access, and multidisciplinary care"
+      ],
+      "strategic_signals": [
+        "access_equity",
+        "care_burden",
+        "pediatric_focus"
+      ],
+      "clinical_domain": "psychosocial",
+      "population": "pediatric",
+      "study_type": "qualitative/survey",
+      "why_it_matters": "Digital CBT group support may improve coping and family communication for adolescents with chronic illness.",
+      "confidence": "medium",
+      "confidence_reason": "Qualitative findings are positive but based on very few completed interviews."
+    },
+    {
+      "uid": "presentation-553",
+      "primary_theme": "Service delivery, access, and multidisciplinary care",
+      "secondary_themes": [
+        "Diagnostics, screening, and biomarkers"
+      ],
+      "strategic_signals": [
+        "access_equity",
+        "care_burden",
+        "pediatric_focus"
+      ],
+      "clinical_domain": "service delivery",
+      "population": "pediatric",
+      "study_type": "case/programme",
+      "why_it_matters": "Virtual paediatric reviews can reduce disruption if clinical checklists protect safety.",
+      "confidence": "high",
+      "confidence_reason": "Family PREM response rate, concerns, benefits, and checklist development are reported."
+    },
+    {
+      "uid": "presentation-450",
+      "primary_theme": "Diagnostics, screening, and biomarkers",
+      "secondary_themes": [
+        "Modulator-era optimization"
+      ],
+      "strategic_signals": [
+        "diagnostic_shift",
+        "practice_implication"
+      ],
+      "clinical_domain": "diagnostics",
+      "population": "mixed/unspecified",
+      "study_type": "qualitative/survey",
+      "why_it_matters": "Point-of-care sweat chloride could make individualized modulator monitoring more actionable.",
+      "confidence": "high",
+      "confidence_reason": "Clinician survey provides scenario ratings across multiple contemporary care uses."
+    },
+    {
+      "uid": "presentation-456",
+      "primary_theme": "Physiotherapy, exercise, and airway clearance",
+      "secondary_themes": [
+        "Service delivery, access, and multidisciplinary care"
+      ],
+      "strategic_signals": [
+        "care_burden",
+        "access_equity",
+        "practice_implication"
+      ],
+      "clinical_domain": "physiotherapy",
+      "population": "mixed/unspecified",
+      "study_type": "case/programme",
+      "why_it_matters": "Online physiotherapy education helps clinicians maintain CF-specific skills as roles evolve.",
+      "confidence": "medium",
+      "confidence_reason": "Platform analytics and registration survey data are useful but programmatic."
+    },
+    {
+      "uid": "presentation-425",
+      "primary_theme": "Diagnostics, screening, and biomarkers",
+      "secondary_themes": [
+        "Emerging genetic, RNA, and cell-model therapies"
+      ],
+      "strategic_signals": [
+        "emerging_modality",
+        "practice_implication"
+      ],
+      "clinical_domain": "diagnostics",
+      "population": "adult",
+      "study_type": "translational/preclinical",
+      "why_it_matters": "Patient-specific MRI modelling may improve prediction of inhaled drug deposition in structurally abnormal CF lungs.",
+      "confidence": "medium",
+      "confidence_reason": "Detailed modelling workflow is provided, but it is based on one volunteer."
+    },
+    {
+      "uid": "presentation-861",
+      "primary_theme": "Physiotherapy, exercise, and airway clearance",
+      "secondary_themes": [
+        "Modulator-era optimization"
+      ],
+      "strategic_signals": [
+        "real_world_evidence",
+        "practice_implication"
+      ],
+      "clinical_domain": "physiotherapy",
+      "population": "adult",
+      "study_type": "observational",
+      "why_it_matters": "Long-term CPET data suggest ETI may preserve aerobic capacity beyond spirometric gains.",
+      "confidence": "medium",
+      "confidence_reason": "Retrospective adult data are available, but the record is partially structured."
+    },
+    {
+      "uid": "presentation-211",
+      "primary_theme": "Infection persistence and antimicrobial strategy",
+      "secondary_themes": [
+        "Diagnostics, screening, and biomarkers"
+      ],
+      "strategic_signals": [
+        "infection_risk",
+        "diagnostic_shift"
+      ],
+      "clinical_domain": "infection",
+      "population": "mixed/unspecified",
+      "study_type": "translational/preclinical",
+      "why_it_matters": "Anti-Pseudomonas immune signatures may help flag chronic infection and lung-function decline risk.",
+      "confidence": "high",
+      "confidence_reason": "Structured translational study links serology, immunophenotyping, transcriptomics, and clinical parameters."
+    },
+    {
+      "uid": "presentation-227",
+      "primary_theme": "Precision CFTR biology and rare variants",
+      "secondary_themes": [
+        "Modulator-era optimization"
+      ],
+      "strategic_signals": [
+        "emerging_modality",
+        "practice_implication"
+      ],
+      "clinical_domain": "CFTR biology",
+      "population": "mixed/unspecified",
+      "study_type": "translational/preclinical",
+      "why_it_matters": "In vitro nasal epithelial testing suggests VTD may rescue F508del-L467F where ETI does not.",
+      "confidence": "high",
+      "confidence_reason": "Structured organoid-cell assay reports genotype cohort, comparator treatment, and functional response."
+    },
+    {
+      "uid": "presentation-181",
+      "primary_theme": "Care burden, adherence, and psychosocial impact",
+      "secondary_themes": [
+        "Modulator-era optimization"
+      ],
+      "strategic_signals": [
+        "care_burden",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "psychosocial",
+      "population": "adult",
+      "study_type": "observational",
+      "why_it_matters": "Better health in young adults with CF may be translating into greater education and employment participation.",
+      "confidence": "high",
+      "confidence_reason": "Annual-review data compare 2015 and 2025 cohorts with employment and health measures."
+    },
+    {
+      "uid": "presentation-123",
+      "primary_theme": "Precision CFTR biology and rare variants",
+      "secondary_themes": [
+        "Diagnostics, screening, and biomarkers",
+        "Modulator-era optimization"
+      ],
+      "strategic_signals": [
+        "emerging_modality",
+        "diagnostic_shift"
+      ],
+      "clinical_domain": "CFTR biology",
+      "population": "mixed/unspecified",
+      "study_type": "translational/preclinical",
+      "why_it_matters": "Fluorescent organoid models could give direct, scalable CFTR function readouts for drug screening.",
+      "confidence": "high",
+      "confidence_reason": "Structured methods and preliminary reporter-function results are provided."
+    },
+    {
+      "uid": "presentation-137",
+      "primary_theme": "Nutrition, GI, and metabolic complications",
+      "secondary_themes": [
+        "Care burden, adherence, and psychosocial impact"
+      ],
+      "strategic_signals": [
+        "care_burden",
+        "practice_implication"
+      ],
+      "clinical_domain": "nutrition/GI",
+      "population": "adult",
+      "study_type": "observational",
+      "why_it_matters": "Diet quality may relate to distinct gastrointestinal symptom phenotypes in adults with CF.",
+      "confidence": "medium",
+      "confidence_reason": "Methods are clear, but visible result detail is limited."
+    },
+    {
+      "uid": "presentation-313",
+      "primary_theme": "Nutrition, GI, and metabolic complications",
+      "secondary_themes": [
+        "Modulator-era optimization"
+      ],
+      "strategic_signals": [
+        "pediatric_focus",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "nutrition/GI",
+      "population": "pediatric",
+      "study_type": "observational",
+      "why_it_matters": "Prospective pediatric liver follow-up can clarify whether CFTR modulators alter liver disease trajectories.",
+      "confidence": "medium",
+      "confidence_reason": "Study design and comparator groups are clear, but results are only partially visible."
+    },
+    {
+      "uid": "presentation-214",
+      "primary_theme": "Infection persistence and antimicrobial strategy",
+      "secondary_themes": [
+        "Emerging genetic, RNA, and cell-model therapies"
+      ],
+      "strategic_signals": [
+        "infection_risk",
+        "emerging_modality"
+      ],
+      "clinical_domain": "infection",
+      "population": "mixed/unspecified",
+      "study_type": "translational/preclinical",
+      "why_it_matters": "OprD resistance mutations may change Pseudomonas behavior beyond antibiotic susceptibility.",
+      "confidence": "high",
+      "confidence_reason": "Structured translational model evaluates longitudinal strains and host-pathogen interactions."
+    },
+    {
+      "uid": "presentation-231",
+      "primary_theme": "Precision CFTR biology and rare variants",
+      "secondary_themes": [
+        "Modulator-era optimization"
+      ],
+      "strategic_signals": [
+        "emerging_modality",
+        "practice_implication"
+      ],
+      "clinical_domain": "CFTR biology",
+      "population": "adult",
+      "study_type": "case/programme",
+      "why_it_matters": "Patient-derived organoids uncovered unexpected ETI responsiveness in a genotype assumed to be nonresponsive.",
+      "confidence": "high",
+      "confidence_reason": "Molecular assays, functional testing, and clinical off-label response are all reported."
+    },
+    {
+      "uid": "presentation-180",
+      "primary_theme": "Care burden, adherence, and psychosocial impact",
+      "secondary_themes": [
+        "Service delivery, access, and multidisciplinary care"
+      ],
+      "strategic_signals": [
+        "care_burden",
+        "pediatric_focus"
+      ],
+      "clinical_domain": "psychosocial",
+      "population": "pediatric",
+      "study_type": "qualitative/survey",
+      "why_it_matters": "Measuring caregiver burden can identify families needing added support in early childhood CF care.",
+      "confidence": "high",
+      "confidence_reason": "Validated CarerQol survey design and target population are clearly stated."
+    },
+    {
+      "uid": "presentation-143",
+      "primary_theme": "Nutrition, GI, and metabolic complications",
+      "secondary_themes": [
+        "Modulator-era optimization"
+      ],
+      "strategic_signals": [
+        "real_world_evidence",
+        "practice_implication"
+      ],
+      "clinical_domain": "nutrition/GI",
+      "population": "adult",
+      "study_type": "observational",
+      "why_it_matters": "Legacy high-salt advice may need reconsideration for adults on highly effective modulators.",
+      "confidence": "medium",
+      "confidence_reason": "Rationale and urinary sodium approach are clear, but results are partially visible."
+    },
+    {
+      "uid": "presentation-314",
+      "primary_theme": "Nutrition, GI, and metabolic complications",
+      "secondary_themes": [
+        "Diagnostics, screening, and biomarkers"
+      ],
+      "strategic_signals": [
+        "diagnostic_shift",
+        "pediatric_focus",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "nutrition/GI",
+      "population": "pediatric",
+      "study_type": "registry",
+      "why_it_matters": "Longitudinal trypsin patterns may improve assessment of pancreatic disease severity after newborn screening.",
+      "confidence": "medium",
+      "confidence_reason": "Retrospective database methods are clear, but visible results are limited."
+    },
+    {
+      "uid": "presentation-122",
+      "primary_theme": "Diagnostics, screening, and biomarkers",
+      "secondary_themes": [
+        "Precision CFTR biology and rare variants"
+      ],
+      "strategic_signals": [
+        "diagnostic_shift",
+        "emerging_modality"
+      ],
+      "clinical_domain": "diagnostics",
+      "population": "mixed/unspecified",
+      "study_type": "translational/preclinical",
+      "why_it_matters": "3D nasal epithelial cultures could strengthen patient-specific diagnostics and functional assays.",
+      "confidence": "medium",
+      "confidence_reason": "Feasibility methods are visible, but outcomes are not fully shown."
+    },
+    {
+      "uid": "presentation-333",
+      "primary_theme": "Infection persistence and antimicrobial strategy",
+      "secondary_themes": [
+        "Modulator-era optimization"
+      ],
+      "strategic_signals": [
+        "infection_risk",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "infection",
+      "population": "mixed/unspecified",
+      "study_type": "translational/preclinical",
+      "why_it_matters": "Pseudomonas may persist and adapt after modulators despite lower sputum burden.",
+      "confidence": "high",
+      "confidence_reason": "Large longitudinal isolate collection integrates phenotypic and genomic data."
+    },
+    {
+      "uid": "presentation-236",
+      "primary_theme": "Emerging genetic, RNA, and cell-model therapies",
+      "secondary_themes": [
+        "Precision CFTR biology and rare variants"
+      ],
+      "strategic_signals": [
+        "emerging_modality"
+      ],
+      "clinical_domain": "gene/RNA therapy",
+      "population": "mixed/unspecified",
+      "study_type": "translational/preclinical",
+      "why_it_matters": "Allele-specific editing could tailor correction strategies for compound heterozygous CFTR genotypes.",
+      "confidence": "low",
+      "confidence_reason": "The record has no structured sections and only partial abstract evidence."
+    },
+    {
+      "uid": "presentation-182",
+      "primary_theme": "Modulator-era optimization",
+      "secondary_themes": [
+        "Care burden, adherence, and psychosocial impact"
+      ],
+      "strategic_signals": [
+        "care_burden",
+        "real_world_evidence",
+        "practice_implication"
+      ],
+      "clinical_domain": "modulators",
+      "population": "mixed/unspecified",
+      "study_type": "observational",
+      "why_it_matters": "Longitudinal side-effect tracking balances ETI benefits against physical, mental-health, and cognitive tolerability.",
+      "confidence": "high",
+      "confidence_reason": "Twenty-four-month multidimensional assessment design and measures are explicit."
+    },
+    {
+      "uid": "presentation-139",
+      "primary_theme": "Nutrition, GI, and metabolic complications",
+      "secondary_themes": [
+        "Modulator-era optimization"
+      ],
+      "strategic_signals": [
+        "practice_implication"
+      ],
+      "clinical_domain": "nutrition/GI",
+      "population": "mixed/unspecified",
+      "study_type": "observational",
+      "why_it_matters": "Salt requirements under HEMT may need individualization rather than blanket legacy recommendations.",
+      "confidence": "medium",
+      "confidence_reason": "Retrospective single-centre methods are clear, with limited visible results."
+    },
+    {
+      "uid": "presentation-310",
+      "primary_theme": "Nutrition, GI, and metabolic complications",
+      "secondary_themes": [
+        "Diagnostics, screening, and biomarkers"
+      ],
+      "strategic_signals": [
+        "diagnostic_shift",
+        "practice_implication"
+      ],
+      "clinical_domain": "nutrition/GI",
+      "population": "adult",
+      "study_type": "translational/preclinical",
+      "why_it_matters": "CFRD-associated microbiome and metabolome differences may reveal treatable metabolic-GI pathways.",
+      "confidence": "high",
+      "confidence_reason": "Structured multi-omic stool analysis with defined CF and control groups."
+    },
+    {
+      "uid": "presentation-121",
+      "primary_theme": "Precision CFTR biology and rare variants",
+      "secondary_themes": [
+        "Emerging genetic, RNA, and cell-model therapies"
+      ],
+      "strategic_signals": [
+        "emerging_modality",
+        "practice_implication"
+      ],
+      "clinical_domain": "CFTR biology",
+      "population": "mixed/unspecified",
+      "study_type": "translational/preclinical",
+      "why_it_matters": "Optimized human lung slices can bridge simple cell models and native CF lung biology for therapy testing.",
+      "confidence": "medium",
+      "confidence_reason": "Model-development aims are clear, but detailed results are only partly visible."
+    },
+    {
+      "uid": "presentation-219",
+      "primary_theme": "Infection persistence and antimicrobial strategy",
+      "secondary_themes": [
+        "Diagnostics, screening, and biomarkers"
+      ],
+      "strategic_signals": [
+        "infection_risk",
+        "diagnostic_shift",
+        "practice_implication"
+      ],
+      "clinical_domain": "infection",
+      "population": "mixed/unspecified",
+      "study_type": "translational/preclinical",
+      "why_it_matters": "FTIR strain typing could distinguish persistent Pseudomonas from new acquisition and guide eradication strategy.",
+      "confidence": "high",
+      "confidence_reason": "Isolate set and clinical use case are clearly described."
+    },
+    {
+      "uid": "presentation-229",
+      "primary_theme": "Diagnostics, screening, and biomarkers",
+      "secondary_themes": [
+        "Modulator-era optimization",
+        "Service delivery, access, and multidisciplinary care"
+      ],
+      "strategic_signals": [
+        "diagnostic_shift",
+        "pediatric_focus",
+        "practice_implication"
+      ],
+      "clinical_domain": "diagnostics",
+      "population": "pregnancy/fertility",
+      "study_type": "case/programme",
+      "why_it_matters": "ETI-exposed infants may evade standard newborn screening, requiring active registry-triggered follow-up.",
+      "confidence": "high",
+      "confidence_reason": "QI pathway reports historical gaps and complete follow-up after implementation."
+    },
+    {
+      "uid": "presentation-179",
+      "primary_theme": "Care burden, adherence, and psychosocial impact",
+      "secondary_themes": [
+        "Service delivery, access, and multidisciplinary care"
+      ],
+      "strategic_signals": [
+        "care_burden",
+        "pediatric_focus"
+      ],
+      "clinical_domain": "psychosocial",
+      "population": "pediatric",
+      "study_type": "qualitative/survey",
+      "why_it_matters": "Understanding fathers coping and growth can broaden family support beyond mother-centred caregiving models.",
+      "confidence": "medium",
+      "confidence_reason": "Survey sample and instruments are stated, but detailed results are only partly visible."
+    },
+    {
+      "uid": "presentation-138",
+      "primary_theme": "Nutrition, GI, and metabolic complications",
+      "secondary_themes": [
+        "Care burden, adherence, and psychosocial impact"
+      ],
+      "strategic_signals": [
+        "care_burden",
+        "practice_implication"
+      ],
+      "clinical_domain": "nutrition/GI",
+      "population": "adult",
+      "study_type": "qualitative/survey",
+      "why_it_matters": "Bone-health education may improve DXA engagement and self-management in adults with CF.",
+      "confidence": "medium",
+      "confidence_reason": "Questionnaire design is clear, but results are partially visible."
+    },
+    {
+      "uid": "presentation-311",
+      "primary_theme": "Nutrition, GI, and metabolic complications",
+      "secondary_themes": [
+        "Modulator-era optimization"
+      ],
+      "strategic_signals": [
+        "pediatric_focus",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "nutrition/GI",
+      "population": "pediatric",
+      "study_type": "observational",
+      "why_it_matters": "ETI appears to reduce abdominal symptom burden even in preschool children.",
+      "confidence": "high",
+      "confidence_reason": "Multicentre real-world study reports sample size, repeated questionnaires, and significant score reductions."
+    },
+    {
+      "uid": "presentation-215",
+      "primary_theme": "Infection persistence and antimicrobial strategy",
+      "secondary_themes": [
+        "Emerging genetic, RNA, and cell-model therapies"
+      ],
+      "strategic_signals": [
+        "infection_risk",
+        "emerging_modality"
+      ],
+      "clinical_domain": "infection",
+      "population": "mixed/unspecified",
+      "study_type": "translational/preclinical",
+      "why_it_matters": "A zebrafish persistence model enables testing host inflammation and biofilm-like Pseudomonas survival in co-infection.",
+      "confidence": "high",
+      "confidence_reason": "Structured model study reports infection methods, inflammatory readouts, and persistence findings."
+    },
+    {
+      "uid": "presentation-232",
+      "primary_theme": "Diagnostics, screening, and biomarkers",
+      "secondary_themes": [
+        "Service delivery, access, and multidisciplinary care"
+      ],
+      "strategic_signals": [
+        "diagnostic_shift",
+        "access_equity",
+        "emerging_modality"
+      ],
+      "clinical_domain": "diagnostics",
+      "population": "pediatric",
+      "study_type": "observational",
+      "why_it_matters": "A flexible point-of-care sweat system could reduce diagnostic delays and expand testing access.",
+      "confidence": "high",
+      "confidence_reason": "Device comparison reports participant groups, no insufficient samples, and strong correlation with standard testing."
+    },
+    {
+      "uid": "presentation-174",
+      "primary_theme": "Care burden, adherence, and psychosocial impact",
+      "secondary_themes": [
+        "Service delivery, access, and multidisciplinary care"
+      ],
+      "strategic_signals": [
+        "access_equity",
+        "pediatric_focus",
+        "care_burden"
+      ],
+      "clinical_domain": "psychosocial",
+      "population": "pediatric",
+      "study_type": "qualitative/survey",
+      "why_it_matters": "Unequal caregiver attendance points to modifiable barriers to father participation in paediatric CF care.",
+      "confidence": "high",
+      "confidence_reason": "Survey-registry study reports attendance differences and behavioural predictors."
+    },
+    {
+      "uid": "presentation-127",
+      "primary_theme": "Precision CFTR biology and rare variants",
+      "secondary_themes": [
+        "Nutrition, GI, and metabolic complications",
+        "Diagnostics, screening, and biomarkers"
+      ],
+      "strategic_signals": [
+        "emerging_modality",
+        "diagnostic_shift"
+      ],
+      "clinical_domain": "CFTR biology",
+      "population": "mixed/unspecified",
+      "study_type": "translational/preclinical",
+      "why_it_matters": "Intestinal organoids link CFTR loss to epithelial plasticity and possible colorectal cancer mechanisms.",
+      "confidence": "high",
+      "confidence_reason": "Structured organoid study reports markers, gene-editing plan, and initial differentiation findings."
+    },
+    {
+      "uid": "presentation-144",
+      "primary_theme": "Nutrition, GI, and metabolic complications",
+      "secondary_themes": [
+        "Modulator-era optimization"
+      ],
+      "strategic_signals": [
+        "pediatric_focus",
+        "real_world_evidence",
+        "practice_implication"
+      ],
+      "clinical_domain": "nutrition/GI",
+      "population": "pediatric",
+      "study_type": "registry",
+      "why_it_matters": "Vitamin monitoring remains necessary during modulator therapy to avoid deficiency or excess.",
+      "confidence": "medium",
+      "confidence_reason": "Prospective registry data include follow-up and vitamin trends, but some measures are incomplete."
+    },
+    {
+      "uid": "presentation-308",
+      "primary_theme": "Nutrition, GI, and metabolic complications",
+      "secondary_themes": [
+        "Diagnostics, screening, and biomarkers",
+        "Service delivery, access, and multidisciplinary care"
+      ],
+      "strategic_signals": [
+        "practice_implication",
+        "real_world_evidence"
+      ],
+      "clinical_domain": "nutrition/GI",
+      "population": "adult",
+      "study_type": "observational",
+      "why_it_matters": "High pathology yield supports robust and possibly earlier colorectal surveillance in adults with CF.",
+      "confidence": "high",
+      "confidence_reason": "Multicentre retrospective cohort reports completion, pathology, malignancy, repeat procedures, and preparation quality."
+    }
+  ]
+}

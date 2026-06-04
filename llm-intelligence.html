@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+    <title>ECFS 2026 LLM Strategic Synthesis Dashboard</title>
+    <meta name="description" content="LLM-inferred ECFS 2026 strategic synthesis dashboard with confidence and source records for every data point.">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600;700&family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800&family=Lexend:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Rubik:wght@400;500;600;700&family=Sora:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/site.css?v=ecfs-hero-title">
+    <link rel="stylesheet" href="assets/css/intelligence.css?v=ecfs-llm-synthesis-1">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
+    <script src="assets/js/llm-intelligence.js?v=ecfs-llm-synthesis-1" defer></script>
+  </head>
+  <body class="intelligence-page llm-intelligence-page is-loading">
+    <header class="site-header">
+      <a class="brand" href="./">ECFS 2026 Conference Data Archive</a>
+      <nav aria-label="Primary navigation">
+        <a href="./">Browse</a>
+        <a href="intelligence.html">Intelligence</a>
+        <a href="llm-intelligence.html" aria-current="page">Synthesis</a>
+        <a href="./#tracks">Tracks</a>
+        <a href="./#sessions">Sessions</a>
+        <a class="download-link" href="ecfs_2026_conference_presentations.json" download>Full JSON</a>
+      </nav>
+    </header>
+
+    <main class="dashboard-shell">
+      <section class="masthead">
+        <div>
+          <h1>ECFS 2026 <span>LLM Strategic Synthesis</span> Dashboard</h1>
+          <p>Offline inference across all ECFS 2026 records. Every claim, theme, and confidence view opens the matching programme records with source links.</p>
+        </div>
+      </section>
+
+      <section class="dashboard-loading" id="dashboard-loading" aria-live="polite" aria-busy="true">
+        <span class="loading-mark" aria-hidden="true"></span>
+        <span>Loading synthesis data</span>
+      </section>
+
+      <section class="kpi-grid" id="kpi-grid" aria-label="LLM synthesis key metrics"></section>
+
+      <section class="section-block insight-section">
+        <h2><span class="dot cyan"></span>Top Strategic Findings</h2>
+        <div class="insight-box">
+          <ul class="insight-list llm-finding-list" id="finding-list"></ul>
+        </div>
+      </section>
+
+      <section class="section-block">
+        <h2><span class="dot blue"></span>Strategic Theme Landscape</h2>
+        <div class="grid-2">
+          <article class="card">
+            <h3>Primary inferred themes</h3>
+            <div class="chart-wrap-lg"><canvas id="themeChart"></canvas></div>
+            <p class="hint">Click any bar to inspect the inferred records.</p>
+          </article>
+          <article class="card">
+            <h3>Confidence by theme</h3>
+            <div class="theme-confidence-list" id="themeConfidence"></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block">
+        <h2><span class="dot green"></span>Clinical Domain Map</h2>
+        <div class="grid-2">
+          <article class="card">
+            <h3>Domain distribution</h3>
+            <div class="chart-wrap"><canvas id="domainChart"></canvas></div>
+            <p class="hint">Click any segment to view records in that clinical domain.</p>
+          </article>
+          <article class="card">
+            <h3>Population focus</h3>
+            <div class="bar-list" id="populationBars"></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block">
+        <h2><span class="dot purple"></span>Emerging Science & Modalities</h2>
+        <div class="grid-2">
+          <article class="card">
+            <h3>Emerging modality subtypes</h3>
+            <div class="bar-list" id="emergingBars"></div>
+          </article>
+          <article class="card">
+            <h3>Study type landscape</h3>
+            <div class="chart-wrap"><canvas id="studyChart"></canvas></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block">
+        <h2><span class="dot amber"></span>Practice & Care Implications</h2>
+        <div class="grid-3" id="signal-cards"></div>
+      </section>
+
+      <section class="section-block">
+        <h2><span class="dot red"></span>Confidence QA View</h2>
+        <div class="grid-2">
+          <article class="card">
+            <h3>Inference confidence</h3>
+            <div class="chart-wrap"><canvas id="confidenceChart"></canvas></div>
+            <p class="hint">Click any segment to audit records by confidence.</p>
+          </article>
+          <article class="card">
+            <h3>Low-confidence records</h3>
+            <div class="bar-list" id="lowConfidenceList"></div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <dialog class="records-dialog" id="records-dialog">
+      <article class="records-panel">
+        <button class="dialog-close" type="button" aria-label="Close records dialog">Close</button>
+        <header>
+          <p class="eyebrow" id="dialog-kind">Data point</p>
+          <h2 id="dialog-title">Matching records</h2>
+          <p id="dialog-summary"></p>
+        </header>
+        <div class="dialog-tools">
+          <input id="dialog-search" type="search" placeholder="Filter matching records">
+          <select id="dialog-confidence" aria-label="Filter by confidence">
+            <option value="">All confidence levels</option>
+            <option value="high">High confidence</option>
+            <option value="medium">Medium confidence</option>
+            <option value="low">Low confidence</option>
+          </select>
+          <button id="copy-urls" type="button">Copy URLs</button>
+        </div>
+        <ol id="records-list" class="records-list"></ol>
+        <button id="load-more-records" class="load-more" type="button">Load more</button>
+      </article>
+    </dialog>
+
+    <footer class="site-footer">
+      <p>Static archive for search, citation, and AI retrieval. LLM-inferred data points retain ECFS source links on every record.</p>
+    </footer>
+  </body>
+</html>
